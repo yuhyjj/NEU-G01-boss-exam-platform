@@ -1,0 +1,11 @@
+
+i
+java:S11927"LDefine a constant instead of duplicating this literal "templateTag" 3 times.(Š·æ¥8ˆ‹×½¶.
+
+java:S1128"]Remove this unused import 'org.springframework.cloud.context.config.annotation.RefreshScope'.(­¾î²ûÿÿÿÿ8âüÕÒ·.
+^
+java:S1117‰";Rename "paperId" which hides the field declared at line 39.(¢«˜Ïøÿÿÿÿ8äèÀ’·.
+_
+java:S1126ü"AReplace this if-then-else statement by a single return statement.(áÃš8ˆ‹×½¶.
+I
+java:S1168¬"+Return an empty collection instead of null.(¥¹ï8ˆ‹×½¶.

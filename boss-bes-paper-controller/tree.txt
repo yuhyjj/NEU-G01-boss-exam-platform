@@ -1,0 +1,1018 @@
+Apache Maven 3.3.9 (bb52d8502b132ec0a5a3f4c09453c07478323dc5; 2015-11-11T00:41:47+08:00)
+Maven home: D:\apache-maven-3.3.9
+Java version: 1.8.0_202, vendor: Oracle Corporation
+Java home: C:\Progra~1\Java\jdk1.8.0_202\jre
+Default locale: zh_CN, platform encoding: GBK
+OS name: "windows 10", version: "10.0", arch: "amd64", family: "dos"
+[DEBUG] Created new class realm maven.api
+[DEBUG] Importing foreign packages into class realm maven.api
+[DEBUG]   Imported: javax.enterprise.inject.* < plexus.core
+[DEBUG]   Imported: javax.enterprise.util.* < plexus.core
+[DEBUG]   Imported: javax.inject.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.artifact < plexus.core
+[DEBUG]   Imported: org.apache.maven.classrealm < plexus.core
+[DEBUG]   Imported: org.apache.maven.cli < plexus.core
+[DEBUG]   Imported: org.apache.maven.configuration < plexus.core
+[DEBUG]   Imported: org.apache.maven.exception < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution.scope < plexus.core
+[DEBUG]   Imported: org.apache.maven.lifecycle < plexus.core
+[DEBUG]   Imported: org.apache.maven.model < plexus.core
+[DEBUG]   Imported: org.apache.maven.monitor < plexus.core
+[DEBUG]   Imported: org.apache.maven.plugin < plexus.core
+[DEBUG]   Imported: org.apache.maven.profiles < plexus.core
+[DEBUG]   Imported: org.apache.maven.project < plexus.core
+[DEBUG]   Imported: org.apache.maven.reporting < plexus.core
+[DEBUG]   Imported: org.apache.maven.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.rtinfo < plexus.core
+[DEBUG]   Imported: org.apache.maven.settings < plexus.core
+[DEBUG]   Imported: org.apache.maven.toolchain < plexus.core
+[DEBUG]   Imported: org.apache.maven.usability < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authentication < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authorization < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.events < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.observers < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.proxy < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.resource < plexus.core
+[DEBUG]   Imported: org.codehaus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.* < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.component < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.configuration < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.container < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.context < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.lifecycle < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.logging < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.personality < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.Xpp3Dom < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParser < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParserException < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlSerializer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.* < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.artifact < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.collection < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.deployment < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.graph < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.installation < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.internal.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.metadata < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.repository < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.resolution < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.spi < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.transfer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.version < plexus.core
+[DEBUG]   Imported: org.slf4j.* < plexus.core
+[DEBUG]   Imported: org.slf4j.helpers.* < plexus.core
+[DEBUG]   Imported: org.slf4j.spi.* < plexus.core
+[DEBUG] Populating class realm maven.api
+[INFO] Error stacktraces are turned on.
+[DEBUG] Reading global settings from D:\apache-maven-3.3.9\conf\settings.xml
+[DEBUG] Reading user settings from C:\Users\asus\.m2\settings.xml
+[DEBUG] Reading global toolchains from D:\apache-maven-3.3.9\conf\toolchains.xml
+[DEBUG] Reading user toolchains from C:\Users\asus\.m2\toolchains.xml
+[DEBUG] Using local repository at C:\Users\asus\.m2\repository
+[DEBUG] Using manager EnhancedLocalRepositoryManager with priority 10.0 for C:\Users\asus\.m2\repository
+[INFO] Scanning for projects...
+[DEBUG] Using mirror alimaven (http://maven.aliyun.com/nexus/content/repositories/central/) for central (https://repo.maven.apache.org/maven2).
+[DEBUG] Extension realms for project boss.bes.paper:boss-bes-paper-controller:jar:0.0.1-SNAPSHOT: (none)
+[DEBUG] Looking up lifecyle mappings for packaging jar from ClassRealm[plexus.core, parent: null]
+[DEBUG] Using mirror nexus-aliyun (http://maven.aliyun.com/nexus/content/groups/public) for sonatype-nexus-snapshots (https://oss.sonatype.org/content/repositories/snapshots).
+[DEBUG] Using mirror nexus-aliyun (http://maven.aliyun.com/nexus/content/groups/public) for apache.snapshots (https://repository.apache.org/snapshots).
+[DEBUG] Extension realms for project boss.bes.paper:boss-bes-paper-center:pom:0.0.1-SNAPSHOT: (none)
+[DEBUG] Looking up lifecyle mappings for packaging pom from ClassRealm[plexus.core, parent: null]
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for boss.bes.paper:boss-bes-paper-controller:jar:0.0.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.springframework.boot:spring-boot-maven-plugin @ line 91, column 21
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[DEBUG] Resolving plugin prefix dependency from [org.apache.maven.plugins, org.codehaus.mojo]
+[DEBUG] Using mirror nexus-aliyun (http://maven.aliyun.com/nexus/content/groups/public) for apache.snapshots (http://repository.apache.org/snapshots).
+[DEBUG] Using mirror nexus-aliyun (http://maven.aliyun.com/nexus/content/groups/public) for apache.snapshots (http://people.apache.org/repo/m2-snapshot-repository).
+[DEBUG] Using mirror nexus-aliyun (http://maven.aliyun.com/nexus/content/groups/public) for codehaus.org (http://snapshots.repository.codehaus.org).
+[DEBUG] Resolved plugin prefix dependency to org.apache.maven.plugins:maven-dependency-plugin from POM boss.bes.paper:boss-bes-paper-controller:jar:0.0.1-SNAPSHOT
+[DEBUG] === REACTOR BUILD PLAN ================================================
+[DEBUG] Project: boss.bes.paper:boss-bes-paper-controller:jar:0.0.1-SNAPSHOT
+[DEBUG] Tasks:   [dependency:tree]
+[DEBUG] Style:   Regular
+[DEBUG] =======================================================================
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building boss-bes-paper-controller 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[DEBUG] Resolving plugin prefix dependency from [org.apache.maven.plugins, org.codehaus.mojo]
+[DEBUG] Resolved plugin prefix dependency to org.apache.maven.plugins:maven-dependency-plugin from POM boss.bes.paper:boss-bes-paper-controller:jar:0.0.1-SNAPSHOT
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] === PROJECT BUILD PLAN ================================================
+[DEBUG] Project:       boss.bes.paper:boss-bes-paper-controller:0.0.1-SNAPSHOT
+[DEBUG] Dependencies (collect): []
+[DEBUG] Dependencies (resolve): [test]
+[DEBUG] Repositories (dependencies): [alimaven (http://maven.aliyun.com/nexus/content/repositories/central/, default, releases)]
+[DEBUG] Repositories (plugins)     : [alimaven (http://maven.aliyun.com/nexus/content/repositories/central/, default, releases)]
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-dependency-plugin:2.8:tree (default-cli)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <appendOutput default-value="false">${appendOutput}</appendOutput>
+  <excludes>${excludes}</excludes>
+  <includes>${includes}</includes>
+  <localRepository default-value="${localRepository}"/>
+  <output>${output}</output>
+  <outputFile>${outputFile}</outputFile>
+  <outputType default-value="text">${outputType}</outputType>
+  <scope>${scope}</scope>
+  <skip default-value="false">${skip}</skip>
+  <tokens default-value="standard">${tokens}</tokens>
+  <verbose default-value="false">${verbose}</verbose>
+  <project default-value="${project}"/>
+</configuration>
+[DEBUG] =======================================================================
+[DEBUG] Using mirror nexus-aliyun (http://maven.aliyun.com/nexus/content/groups/public) for repository.jboss.org (http://repository.jboss.org/nexus/content/groups/public/).
+[DEBUG] Using mirror nexus-aliyun (http://maven.aliyun.com/nexus/content/groups/public) for eclipselink.repository (http://www.eclipse.org/downloads/download.php?r=1&nf=1&file=/rt/eclipselink/maven.repo).
+[DEBUG] Using mirror nexus-aliyun (http://maven.aliyun.com/nexus/content/groups/public) for ow2-snapshot (http://repository.ow2.org/nexus/content/repositories/snapshots).
+[DEBUG] Using mirror nexus-aliyun (http://maven.aliyun.com/nexus/content/groups/public) for vaadin-snapshots (http://oss.sonatype.org/content/repositories/vaadin-snapshots/).
+[DEBUG] Using mirror nexus-aliyun (http://maven.aliyun.com/nexus/content/groups/public) for vaadin-releases (http://oss.sonatype.org/content/repositories/vaadin-releases/).
+[DEBUG] Using mirror nexus-aliyun (http://maven.aliyun.com/nexus/content/groups/public) for spring-libs-release (https://repo.spring.io/libs-release).
+[DEBUG] Using mirror nexus-aliyun (http://maven.aliyun.com/nexus/content/groups/public) for spring-libs-snapshot (https://repo.spring.io/libs-snapshot).
+[DEBUG] Using mirror nexus-aliyun (http://maven.aliyun.com/nexus/content/groups/public) for sonatype-oss-snapshots (https://oss.sonatype.org/content/repositories/snapshots).
+[DEBUG] Using mirror nexus-aliyun (http://maven.aliyun.com/nexus/content/groups/public) for spring-milestone (https://repo.spring.io/milestone).
+[DEBUG] Using mirror nexus-aliyun (http://maven.aliyun.com/nexus/content/groups/public) for spring-snapshot (https://repo.spring.io/snapshot).
+[DEBUG] Using mirror nexus-aliyun (http://maven.aliyun.com/nexus/content/groups/public) for spring-snapshots (http://repo.spring.io/snapshot).
+[DEBUG] Using mirror nexus-aliyun (http://maven.aliyun.com/nexus/content/groups/public) for spring-milestones (http://repo.spring.io/milestone).
+[DEBUG] Using mirror nexus-aliyun (http://maven.aliyun.com/nexus/content/groups/public) for jvnet-nexus-releases (https://maven.java.net/content/repositories/releases/).
+[DEBUG] Using mirror nexus-aliyun (http://maven.aliyun.com/nexus/content/groups/public) for jvnet-nexus-snapshots (https://maven.java.net/content/repositories/snapshots).
+[DEBUG] Using mirror nexus-aliyun (http://maven.aliyun.com/nexus/content/groups/public) for releases.java.net (https://maven.java.net/content/repositories/releases/).
+[DEBUG] Using mirror nexus-aliyun (http://maven.aliyun.com/nexus/content/groups/public) for staging.java.net (https://maven.java.net/content/groups/staging/).
+[DEBUG] Using mirror nexus-aliyun (http://maven.aliyun.com/nexus/content/groups/public) for maven2-repository.dev.java.net (http://download.java.net/maven/2/).
+[DEBUG] Could not find metadata net.minidev:json-smart/maven-metadata.xml in local (C:\Users\asus\.m2\repository)
+[DEBUG] Skipped remote request for net.minidev:json-smart/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=13, ConflictMarker.markTime=3, ConflictMarker.nodeCount=762, ConflictIdSorter.graphTime=5, ConflictIdSorter.topsortTime=1, ConflictIdSorter.conflictIdCount=242, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=178, ConflictResolver.conflictItemCount=538, DefaultDependencyCollector.collectTime=19333, DefaultDependencyCollector.transformTime=204}
+[DEBUG] boss.bes.paper:boss-bes-paper-controller:jar:0.0.1-SNAPSHOT
+[DEBUG]    com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-discovery:jar:2.2.1.RELEASE:compile
+[DEBUG]       com.alibaba.nacos:nacos-client:jar:1.2.1:compile
+[DEBUG]          com.alibaba.nacos:nacos-common:jar:1.2.1:compile
+[DEBUG]             commons-io:commons-io:jar:2.2:compile
+[DEBUG]             org.apache.commons:commons-lang3:jar:3.10:compile (version managed from 3.4 by org.springframework.boot:spring-boot-dependencies:2.3.1.RELEASE)
+[DEBUG]          com.alibaba.nacos:nacos-api:jar:1.2.1:compile
+[DEBUG]             com.alibaba:fastjson:jar:1.2.58:compile
+[DEBUG]          com.google.guava:guava:jar:29.0-android:compile (version managed from 22.0 by com.google.guava:guava-bom:29.0-android)
+[DEBUG]             com.google.guava:failureaccess:jar:1.0.1:compile
+[DEBUG]             com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile
+[DEBUG]             com.google.code.findbugs:jsr305:jar:3.0.2:compile
+[DEBUG]             org.checkerframework:checker-compat-qual:jar:2.5.5:compile
+[DEBUG]             com.google.errorprone:error_prone_annotations:jar:2.3.4:compile
+[DEBUG]             com.google.j2objc:j2objc-annotations:jar:1.3:compile
+[DEBUG]          commons-codec:commons-codec:jar:1.14:compile (version managed from 1.11 by org.springframework.boot:spring-boot-dependencies:2.3.1.RELEASE)
+[DEBUG]          com.fasterxml.jackson.core:jackson-core:jar:2.11.0:compile (version managed from 2.9.10 by com.fasterxml.jackson:jackson-bom:2.11.0)
+[DEBUG]          com.fasterxml.jackson.core:jackson-databind:jar:2.11.0:compile (version managed from 2.9.10.3 by com.fasterxml.jackson:jackson-bom:2.11.0)
+[DEBUG]          io.prometheus:simpleclient:jar:0.5.0:compile
+[DEBUG]          org.yaml:snakeyaml:jar:1.26:compile (version managed from 1.23 by org.springframework.boot:spring-boot-dependencies:2.3.1.RELEASE)
+[DEBUG]       com.alibaba.spring:spring-context-support:jar:1.0.6:compile
+[DEBUG]       org.springframework.cloud:spring-cloud-commons:jar:2.2.3.RELEASE:compile (version managed from 2.2.2.RELEASE by org.springframework.cloud:spring-cloud-commons-dependencies:2.2.3.RELEASE)
+[DEBUG]          org.springframework.security:spring-security-crypto:jar:5.3.3.RELEASE:compile (version managed from 5.3.2.RELEASE by org.springframework.security:spring-security-bom:5.3.3.RELEASE)
+[DEBUG]       org.springframework.cloud:spring-cloud-context:jar:2.2.3.RELEASE:compile (version managed from 2.2.2.RELEASE by org.springframework.cloud:spring-cloud-commons-dependencies:2.2.3.RELEASE)
+[DEBUG]       org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.2.3.RELEASE:compile (version managed from 2.2.2.RELEASE by org.springframework.cloud:spring-cloud-netflix-dependencies:2.2.3.RELEASE)
+[DEBUG]          org.springframework.cloud:spring-cloud-starter:jar:2.2.3.RELEASE:compile
+[DEBUG]             org.springframework.security:spring-security-rsa:jar:1.0.9.RELEASE:compile
+[DEBUG]                org.bouncycastle:bcpkix-jdk15on:jar:1.64:compile
+[DEBUG]          org.springframework.cloud:spring-cloud-netflix-ribbon:jar:2.2.3.RELEASE:compile
+[DEBUG]             org.springframework.cloud:spring-cloud-netflix-archaius:jar:2.2.3.RELEASE:compile
+[DEBUG]          org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar:2.2.3.RELEASE:compile
+[DEBUG]             com.netflix.archaius:archaius-core:jar:0.7.6:compile
+[DEBUG]             commons-configuration:commons-configuration:jar:1.8:compile
+[DEBUG]          com.netflix.ribbon:ribbon:jar:2.3.0:compile
+[DEBUG]             com.netflix.ribbon:ribbon-transport:jar:2.3.0:runtime
+[DEBUG]                io.reactivex:rxnetty-contexts:jar:0.4.9:runtime
+[DEBUG]                io.reactivex:rxnetty-servo:jar:0.4.9:runtime
+[DEBUG]             com.netflix.hystrix:hystrix-core:jar:1.5.18:compile (version managed from 1.4.3 by org.springframework.cloud:spring-cloud-netflix-dependencies:2.2.3.RELEASE)
+[DEBUG]                org.hdrhistogram:HdrHistogram:jar:2.1.9:compile
+[DEBUG]             javax.inject:javax.inject:jar:1:runtime
+[DEBUG]             io.reactivex:rxnetty:jar:0.4.9:runtime
+[DEBUG]          com.netflix.ribbon:ribbon-core:jar:2.3.0:compile
+[DEBUG]             commons-lang:commons-lang:jar:2.6:compile
+[DEBUG]          com.netflix.ribbon:ribbon-httpclient:jar:2.3.0:compile
+[DEBUG]             commons-collections:commons-collections:jar:3.2.2:compile
+[DEBUG]             org.apache.httpcomponents:httpclient:jar:4.5.12:compile (version managed from 4.2.1 by org.springframework.boot:spring-boot-dependencies:2.3.1.RELEASE)
+[DEBUG]                org.apache.httpcomponents:httpcore:jar:4.4.13:compile
+[DEBUG]             com.sun.jersey:jersey-client:jar:1.19.1:runtime
+[DEBUG]                com.sun.jersey:jersey-core:jar:1.19.1:runtime
+[DEBUG]                   javax.ws.rs:jsr311-api:jar:1.1.1:runtime
+[DEBUG]             com.sun.jersey.contribs:jersey-apache-client4:jar:1.19.1:runtime
+[DEBUG]             com.netflix.servo:servo-core:jar:0.12.21:runtime (version managed from 0.10.1 by org.springframework.cloud:spring-cloud-netflix-dependencies:2.2.3.RELEASE)
+[DEBUG]             com.netflix.netflix-commons:netflix-commons-util:jar:0.3.0:runtime (version managed from 0.1.1 by org.springframework.cloud:spring-cloud-netflix-dependencies:2.2.3.RELEASE)
+[DEBUG]          com.netflix.ribbon:ribbon-loadbalancer:jar:2.3.0:compile
+[DEBUG]             com.netflix.netflix-commons:netflix-statistics:jar:0.1.1:runtime
+[DEBUG]          io.reactivex:rxjava:jar:1.3.8:compile
+[DEBUG]    com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-config:jar:2.2.1.RELEASE:compile
+[DEBUG]    org.springframework.boot:spring-boot-starter-web:jar:2.3.1.RELEASE:compile
+[DEBUG]       org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE:compile
+[DEBUG]          org.springframework.boot:spring-boot:jar:2.3.1.RELEASE:compile
+[DEBUG]          org.springframework.boot:spring-boot-autoconfigure:jar:2.3.1.RELEASE:compile
+[DEBUG]          org.springframework.boot:spring-boot-starter-logging:jar:2.3.1.RELEASE:compile
+[DEBUG]             ch.qos.logback:logback-classic:jar:1.2.3:compile
+[DEBUG]                ch.qos.logback:logback-core:jar:1.2.3:compile
+[DEBUG]             org.apache.logging.log4j:log4j-to-slf4j:jar:2.13.3:compile
+[DEBUG]                org.apache.logging.log4j:log4j-api:jar:2.13.3:compile
+[DEBUG]             org.slf4j:jul-to-slf4j:jar:1.7.30:compile
+[DEBUG]          jakarta.annotation:jakarta.annotation-api:jar:1.3.5:compile
+[DEBUG]       org.springframework.boot:spring-boot-starter-json:jar:2.3.1.RELEASE:compile
+[DEBUG]          com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.11.0:compile
+[DEBUG]          com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.11.0:compile
+[DEBUG]          com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.11.0:compile
+[DEBUG]       org.springframework.boot:spring-boot-starter-tomcat:jar:2.3.1.RELEASE:compile
+[DEBUG]          org.apache.tomcat.embed:tomcat-embed-core:jar:9.0.36:compile
+[DEBUG]          org.glassfish:jakarta.el:jar:3.0.3:compile
+[DEBUG]          org.apache.tomcat.embed:tomcat-embed-websocket:jar:9.0.36:compile
+[DEBUG]       org.springframework:spring-web:jar:5.2.7.RELEASE:compile
+[DEBUG]          org.springframework:spring-beans:jar:5.2.7.RELEASE:compile
+[DEBUG]       org.springframework:spring-webmvc:jar:5.2.7.RELEASE:compile
+[DEBUG]          org.springframework:spring-aop:jar:5.2.7.RELEASE:compile
+[DEBUG]          org.springframework:spring-context:jar:5.2.7.RELEASE:compile
+[DEBUG]          org.springframework:spring-expression:jar:5.2.7.RELEASE:compile
+[DEBUG]    org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE:test
+[DEBUG]       org.springframework.boot:spring-boot-test:jar:2.3.1.RELEASE:test
+[DEBUG]       org.springframework.boot:spring-boot-test-autoconfigure:jar:2.3.1.RELEASE:test
+[DEBUG]       com.jayway.jsonpath:json-path:jar:2.4.0:test
+[DEBUG]          net.minidev:json-smart:jar:2.3:compile
+[DEBUG]             net.minidev:accessors-smart:jar:1.2:compile
+[DEBUG]                org.ow2.asm:asm:jar:5.0.4:compile
+[DEBUG]          org.slf4j:slf4j-api:jar:1.7.30:compile (version managed from 1.7.25 by org.springframework.boot:spring-boot-dependencies:2.3.1.RELEASE)
+[DEBUG]       jakarta.xml.bind:jakarta.xml.bind-api:jar:2.3.3:compile
+[DEBUG]          jakarta.activation:jakarta.activation-api:jar:1.2.2:compile
+[DEBUG]       org.assertj:assertj-core:jar:3.16.1:test
+[DEBUG]       org.hamcrest:hamcrest:jar:2.2:compile
+[DEBUG]       org.junit.jupiter:junit-jupiter:jar:5.6.2:test
+[DEBUG]          org.junit.jupiter:junit-jupiter-api:jar:5.6.2:test
+[DEBUG]             org.apiguardian:apiguardian-api:jar:1.1.0:test
+[DEBUG]             org.opentest4j:opentest4j:jar:1.2.0:test
+[DEBUG]             org.junit.platform:junit-platform-commons:jar:1.6.2:test
+[DEBUG]          org.junit.jupiter:junit-jupiter-params:jar:5.6.2:test
+[DEBUG]          org.junit.jupiter:junit-jupiter-engine:jar:5.6.2:test
+[DEBUG]             org.junit.platform:junit-platform-engine:jar:1.6.2:test
+[DEBUG]       org.mockito:mockito-core:jar:3.3.3:test
+[DEBUG]          net.bytebuddy:byte-buddy:jar:1.10.11:compile (version managed from 1.10.5 by org.springframework.boot:spring-boot-dependencies:2.3.1.RELEASE)
+[DEBUG]          net.bytebuddy:byte-buddy-agent:jar:1.10.11:test (version managed from 1.10.5 by org.springframework.boot:spring-boot-dependencies:2.3.1.RELEASE)
+[DEBUG]          org.objenesis:objenesis:jar:2.6:test
+[DEBUG]       org.mockito:mockito-junit-jupiter:jar:3.3.3:test
+[DEBUG]       org.skyscreamer:jsonassert:jar:1.5.0:test
+[DEBUG]          com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1:test
+[DEBUG]       org.springframework:spring-core:jar:5.2.7.RELEASE:compile
+[DEBUG]          org.springframework:spring-jcl:jar:5.2.7.RELEASE:compile
+[DEBUG]       org.springframework:spring-test:jar:5.2.7.RELEASE:test
+[DEBUG]       org.xmlunit:xmlunit-core:jar:2.7.0:test
+[DEBUG]    boss.bes.paper:boss-bes-paper-config:jar:0.0.1-SNAPSHOT:compile
+[DEBUG]    boss.bes.paper:boss-bes-paper-service:jar:0.0.1-SNAPSHOT:compile
+[DEBUG]       org.springframework.cloud:spring-cloud-starter-openfeign:jar:2.2.3.RELEASE:compile
+[DEBUG]          org.springframework.cloud:spring-cloud-openfeign-core:jar:2.2.3.RELEASE:compile
+[DEBUG]             io.github.openfeign.form:feign-form-spring:jar:3.8.0:compile
+[DEBUG]                io.github.openfeign.form:feign-form:jar:3.8.0:compile
+[DEBUG]                commons-fileupload:commons-fileupload:jar:1.4:compile
+[DEBUG]          io.github.openfeign:feign-core:jar:10.10.1:compile
+[DEBUG]          io.github.openfeign:feign-slf4j:jar:10.10.1:compile
+[DEBUG]          io.github.openfeign:feign-hystrix:jar:10.10.1:compile
+[DEBUG]       boss.bes.paper:boss-bes-paper-dao:jar:0.0.1-SNAPSHOT:compile
+[DEBUG]          boss.bes.paper:boss-bes-paper-utils:jar:0.0.1-SNAPSHOT:compile
+[DEBUG]    boss.bes.paper:boss-bes-paper-api:jar:0.0.1-SNAPSHOT:compile
+[DEBUG]       boss.bes.paper:boss-bes-paper-pojo:jar:0.0.1-SNAPSHOT:compile
+[DEBUG]    boss.bes:boss-xtrain-common-spring-boot-starter:jar:0.0.1-SNAPSHOT:compile
+[DEBUG]       boss.bes:boss-xtrain-cache-redis:jar:0.0.1-SNAPSHOT:compile
+[DEBUG]          mysql:mysql-connector-java:jar:8.0.20:compile (version managed from 5.1.47 by org.springframework.boot:spring-boot-dependencies:2.3.1.RELEASE)
+[DEBUG]          org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE:compile
+[DEBUG]             org.springframework.data:spring-data-redis:jar:2.3.1.RELEASE:compile
+[DEBUG]                org.springframework.data:spring-data-keyvalue:jar:2.3.1.RELEASE:compile
+[DEBUG]                org.springframework:spring-tx:jar:5.2.7.RELEASE:compile
+[DEBUG]                org.springframework:spring-oxm:jar:5.2.7.RELEASE:compile
+[DEBUG]             io.lettuce:lettuce-core:jar:5.3.1.RELEASE:compile
+[DEBUG]                io.netty:netty-common:jar:4.1.50.Final:compile
+[DEBUG]                io.netty:netty-handler:jar:4.1.50.Final:compile
+[DEBUG]                   io.netty:netty-resolver:jar:4.1.50.Final:compile
+[DEBUG]                   io.netty:netty-buffer:jar:4.1.50.Final:compile
+[DEBUG]                   io.netty:netty-codec:jar:4.1.50.Final:compile
+[DEBUG]                io.netty:netty-transport:jar:4.1.50.Final:compile
+[DEBUG]                io.projectreactor:reactor-core:jar:3.3.6.RELEASE:compile
+[DEBUG]                   org.reactivestreams:reactive-streams:jar:1.0.3:compile
+[DEBUG]       boss.bes:boss-xtrain-config-api-version:jar:0.0.1-SNAPSHOT:compile
+[DEBUG]          org.projectlombok:lombok:jar:1.18.12:compile (version managed from 1.18.0 by org.springframework.boot:spring-boot-dependencies:2.3.1.RELEASE)
+[DEBUG]          io.springfox:springfox-swagger2:jar:2.9.2:compile
+[DEBUG]             io.swagger:swagger-annotations:jar:1.5.20:compile
+[DEBUG]             io.swagger:swagger-models:jar:1.5.20:compile
+[DEBUG]             io.springfox:springfox-spi:jar:2.9.2:compile
+[DEBUG]                io.springfox:springfox-core:jar:2.9.2:compile
+[DEBUG]             io.springfox:springfox-schema:jar:2.9.2:compile
+[DEBUG]             io.springfox:springfox-swagger-common:jar:2.9.2:compile
+[DEBUG]             io.springfox:springfox-spring-web:jar:2.9.2:compile
+[DEBUG]             com.fasterxml:classmate:jar:1.5.1:compile (version managed from 1.4.0 by org.springframework.boot:spring-boot-dependencies:2.3.1.RELEASE)
+[DEBUG]             org.springframework.plugin:spring-plugin-core:jar:1.2.0.RELEASE:compile
+[DEBUG]             org.springframework.plugin:spring-plugin-metadata:jar:1.2.0.RELEASE:compile
+[DEBUG]             org.mapstruct:mapstruct:jar:1.2.0.Final:compile
+[DEBUG]          io.springfox:springfox-swagger-ui:jar:2.9.2:compile
+[DEBUG]       boss.bes:boss-xtrain-config-spring-cache:jar:0.0.1-SNAPSHOT:compile
+[DEBUG]          com.fasterxml.jackson.core:jackson-annotations:jar:2.11.0:compile
+[DEBUG]          org.apache.commons:commons-pool2:jar:2.8.0:compile
+[DEBUG]       boss.bes:boss-xtrain-core-annotation:jar:0.0.1-SNAPSHOT:compile
+[DEBUG]          org.springframework.boot:spring-boot-starter-aop:jar:2.3.1.RELEASE:compile
+[DEBUG]             org.aspectj:aspectjweaver:jar:1.9.5:compile
+[DEBUG]       boss.bes:boss-xtrain-core-data-convention:jar:0.0.1-SNAPSHOT:compile
+[DEBUG]          com.github.pagehelper:pagehelper-spring-boot-starter:jar:1.2.13:compile
+[DEBUG]             org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:2.1.1:compile
+[DEBUG]                org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:2.1.1:compile
+[DEBUG]             com.github.pagehelper:pagehelper-spring-boot-autoconfigure:jar:1.2.13:compile
+[DEBUG]             com.github.pagehelper:pagehelper:jar:5.1.11:compile
+[DEBUG]                com.github.jsqlparser:jsqlparser:jar:2.0:compile
+[DEBUG]          org.springframework.boot:spring-boot-starter-validation:jar:2.3.1.RELEASE:compile
+[DEBUG]             org.hibernate.validator:hibernate-validator:jar:6.1.5.Final:compile
+[DEBUG]                jakarta.validation:jakarta.validation-api:jar:2.0.2:compile
+[DEBUG]                org.jboss.logging:jboss-logging:jar:3.4.1.Final:compile (version managed from 3.3.2.Final by org.springframework.boot:spring-boot-dependencies:2.3.1.RELEASE)
+[DEBUG]          org.springframework.boot:spring-boot-starter-data-jpa:jar:2.3.1.RELEASE:compile
+[DEBUG]             org.springframework.boot:spring-boot-starter-jdbc:jar:2.3.1.RELEASE:compile
+[DEBUG]                com.zaxxer:HikariCP:jar:3.4.5:compile
+[DEBUG]                org.springframework:spring-jdbc:jar:5.2.7.RELEASE:compile
+[DEBUG]             jakarta.transaction:jakarta.transaction-api:jar:1.3.3:compile
+[DEBUG]             jakarta.persistence:jakarta.persistence-api:jar:2.2.3:compile
+[DEBUG]             org.hibernate:hibernate-core:jar:5.4.17.Final:compile
+[DEBUG]                org.javassist:javassist:jar:3.24.0-GA:compile
+[DEBUG]                antlr:antlr:jar:2.7.7:compile
+[DEBUG]                org.jboss:jandex:jar:2.1.3.Final:compile
+[DEBUG]                org.dom4j:dom4j:jar:2.1.3:compile
+[DEBUG]                org.hibernate.common:hibernate-commons-annotations:jar:5.1.0.Final:compile
+[DEBUG]                org.glassfish.jaxb:jaxb-runtime:jar:2.3.3:compile (version managed from 2.3.1 by org.springframework.boot:spring-boot-dependencies:2.3.1.RELEASE)
+[DEBUG]                   org.glassfish.jaxb:txw2:jar:2.3.3:compile
+[DEBUG]                   com.sun.istack:istack-commons-runtime:jar:3.0.11:compile
+[DEBUG]             org.springframework.data:spring-data-jpa:jar:2.3.1.RELEASE:compile
+[DEBUG]                org.springframework.data:spring-data-commons:jar:2.3.1.RELEASE:compile
+[DEBUG]                org.springframework:spring-orm:jar:5.2.7.RELEASE:compile
+[DEBUG]             org.springframework:spring-aspects:jar:5.2.7.RELEASE:compile
+[DEBUG]          tk.mybatis:mapper-spring-boot-starter:jar:2.1.5:compile
+[DEBUG]             org.mybatis:mybatis:jar:3.4.6:compile
+[DEBUG]             org.mybatis:mybatis-spring:jar:1.3.2:compile
+[DEBUG]             tk.mybatis:mapper-core:jar:1.1.5:compile
+[DEBUG]                javax.persistence:persistence-api:jar:1.0:compile
+[DEBUG]             tk.mybatis:mapper-base:jar:1.1.5:compile
+[DEBUG]             tk.mybatis:mapper-weekend:jar:1.1.5:compile
+[DEBUG]             tk.mybatis:mapper-spring:jar:1.1.5:compile
+[DEBUG]             tk.mybatis:mapper-extra:jar:1.1.5:compile
+[DEBUG]             tk.mybatis:mapper-spring-boot-autoconfigure:jar:2.1.5:compile
+[DEBUG]       boss.bes:boss-xtrain-log:jar:0.0.1-SNAPSHOT:compile
+[DEBUG]          junit:junit:jar:4.13:compile (version managed from 4.12 by org.springframework.boot:spring-boot-dependencies:2.3.1.RELEASE)
+[DEBUG]             org.hamcrest:hamcrest-core:jar:2.2:compile (version managed from 1.3 by org.springframework.boot:spring-boot-dependencies:2.3.1.RELEASE)
+[DEBUG]       boss.bes:boss-xtrain-util:jar:0.0.1-SNAPSHOT:compile
+[DEBUG]          com.aliyun:aliyun-java-sdk-core:jar:4.0.6:compile
+[DEBUG]             javax.xml.bind:jaxb-api:jar:2.3.1:compile (version managed from 2.1 by org.springframework.boot:spring-boot-dependencies:2.3.1.RELEASE)
+[DEBUG]                javax.activation:javax.activation-api:jar:1.2.0:compile
+[DEBUG]             com.sun.xml.bind:jaxb-core:jar:2.1.14:compile
+[DEBUG]             com.sun.xml.bind:jaxb-impl:jar:2.1:compile
+[DEBUG]             javax.activation:activation:jar:1.1.1:compile
+[DEBUG]          com.aliyun:aliyun-java-sdk-dysmsapi:jar:1.1.0:compile
+[DEBUG]          org.springframework.boot:spring-boot-starter-mail:jar:2.3.1.RELEASE:compile
+[DEBUG]             org.springframework:spring-context-support:jar:5.2.7.RELEASE:compile
+[DEBUG]             com.sun.mail:jakarta.mail:jar:1.6.5:compile
+[DEBUG]                com.sun.activation:jakarta.activation:jar:1.2.2:compile (version managed from 1.2.1 by org.springframework.boot:spring-boot-dependencies:2.3.1.RELEASE)
+[DEBUG]          com.sun.mail:javax.mail:jar:1.4.4:compile
+[DEBUG]          cn.afterturn:easypoi-base:jar:3.0.3:compile
+[DEBUG]             org.apache.poi:poi:jar:3.15:compile
+[DEBUG]                org.apache.commons:commons-collections4:jar:4.1:compile
+[DEBUG]             org.apache.poi:poi-ooxml:jar:3.15:compile
+[DEBUG]                com.github.virtuald:curvesapi:jar:1.04:compile
+[DEBUG]             org.apache.poi:poi-ooxml-schemas:jar:3.15:compile
+[DEBUG]                org.apache.xmlbeans:xmlbeans:jar:2.6.0:compile
+[DEBUG]                   stax:stax-api:jar:1.0.1:compile
+[DEBUG]             javax.validation:validation-api:jar:2.0.1.Final:compile (version managed from 1.1.0.Final by org.springframework.boot:spring-boot-dependencies:2.3.1.RELEASE)
+[DEBUG]          cn.afterturn:easypoi-web:jar:3.0.3:compile
+[DEBUG]          cn.afterturn:easypoi-annotation:jar:3.0.3:compile
+[DEBUG]          com.auth0:java-jwt:jar:3.0.1:compile
+[DEBUG]             org.bouncycastle:bcprov-jdk15on:jar:1.55:compile
+[DEBUG]          io.jsonwebtoken:jjwt:jar:0.7.0:compile
+[DEBUG]          com.nimbusds:nimbus-jose-jwt:jar:6.0:compile
+[DEBUG]             com.github.stephenc.jcip:jcip-annotations:jar:1.0-1:compile
+[DEBUG]          commons-logging:commons-logging:jar:1.2:compile
+[DEBUG]          com.google.code.gson:gson:jar:2.8.6:compile (version managed from 2.8.2 by org.springframework.boot:spring-boot-dependencies:2.3.1.RELEASE)
+[DEBUG]          commons-beanutils:commons-beanutils:jar:1.9.3:compile
+[DEBUG]          cn.hutool:hutool-all:jar:5.3.7:compile
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ boss-bes-paper-controller ---
+[DEBUG] Using mirror nexus-aliyun (http://maven.aliyun.com/nexus/content/groups/public) for codehaus.snapshots (http://snapshots.repository.codehaus.org).
+[DEBUG] Using mirror nexus-aliyun (http://maven.aliyun.com/nexus/content/groups/public) for snapshots (http://snapshots.maven.codehaus.org/maven2).
+[DEBUG] Using mirror alimaven (http://maven.aliyun.com/nexus/content/repositories/central/) for central (http://repo1.maven.org/maven2).
+[DEBUG] Using mirror nexus-aliyun (http://maven.aliyun.com/nexus/content/groups/public) for apache-snapshots (http://people.apache.org/maven-snapshot-repository).
+[DEBUG] Using mirror nexus-aliyun (http://maven.aliyun.com/nexus/content/groups/public) for codehaus-snapshots (http://snapshots.repository.codehaus.org).
+[DEBUG] Using mirror nexus-aliyun (http://maven.aliyun.com/nexus/content/groups/public) for plexus.snapshots (https://oss.sonatype.org/content/repositories/plexus-snapshots).
+[DEBUG] Using mirror nexus-aliyun (http://maven.aliyun.com/nexus/content/groups/public) for apache.snapshots (http://cvs.apache.org/maven-snapshot-repository).
+[DEBUG] Using mirror nexus-aliyun (http://maven.aliyun.com/nexus/content/groups/public) for apache.snapshots (http://people.apache.org/maven-snapshot-repository).
+[DEBUG] Using mirror nexus-aliyun (http://maven.aliyun.com/nexus/content/groups/public) for apache-snapshots (http://people.apache.org/repo/m2-snapshot-repository).
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=3, ConflictMarker.markTime=0, ConflictMarker.nodeCount=297, ConflictIdSorter.graphTime=1, ConflictIdSorter.topsortTime=1, ConflictIdSorter.conflictIdCount=63, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=17, ConflictResolver.conflictItemCount=167, DefaultDependencyCollector.collectTime=10205, DefaultDependencyCollector.transformTime=22}
+[DEBUG] org.apache.maven.plugins:maven-dependency-plugin:jar:2.8:
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.0.9:compile
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.9:compile
+[DEBUG]    org.apache.maven:maven-project:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.0.9:compile
+[DEBUG]    org.apache.maven:maven-model:jar:2.0.9:compile
+[DEBUG]    org.apache.maven:maven-core:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-error-diagnostics:jar:2.0.9:compile
+[DEBUG]       commons-cli:commons-cli:jar:1.0:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.0.9:compile
+[DEBUG]       org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4:compile
+[DEBUG]       org.apache.maven:maven-monitor:jar:2.0.9:compile
+[DEBUG]    org.apache.maven:maven-artifact-manager:jar:2.0.9:compile
+[DEBUG]    org.apache.maven:maven-repository-metadata:jar:2.0.9:compile
+[DEBUG]    org.apache.maven.reporting:maven-reporting-api:jar:3.0:compile
+[DEBUG]    org.apache.maven.reporting:maven-reporting-impl:jar:2.0.5:compile
+[DEBUG]       org.apache.maven.doxia:doxia-core:jar:1.0:compile
+[DEBUG]       org.apache.maven.shared:maven-doxia-tools:jar:1.0.2:compile
+[DEBUG]          commons-io:commons-io:jar:1.4:compile
+[DEBUG]       commons-validator:commons-validator:jar:1.2.0:compile
+[DEBUG]          commons-beanutils:commons-beanutils:jar:1.7.0:compile
+[DEBUG]          commons-digester:commons-digester:jar:1.6:compile
+[DEBUG]          commons-logging:commons-logging:jar:1.0.4:compile
+[DEBUG]          oro:oro:jar:2.0.8:compile
+[DEBUG]          xml-apis:xml-apis:jar:1.0.b2:compile
+[DEBUG]    org.apache.maven.doxia:doxia-sink-api:jar:1.0:compile
+[DEBUG]    org.apache.maven.doxia:doxia-site-renderer:jar:1.0:compile
+[DEBUG]       org.codehaus.plexus:plexus-i18n:jar:1.0-beta-7:compile
+[DEBUG]       org.codehaus.plexus:plexus-velocity:jar:1.1.7:compile
+[DEBUG]       org.apache.velocity:velocity:jar:1.5:compile
+[DEBUG]       org.apache.maven.doxia:doxia-decoration-model:jar:1.0:compile
+[DEBUG]       org.apache.maven.doxia:doxia-module-apt:jar:1.0:compile
+[DEBUG]       org.apache.maven.doxia:doxia-module-fml:jar:1.0:compile
+[DEBUG]       org.apache.maven.doxia:doxia-module-xdoc:jar:1.0:compile
+[DEBUG]       org.apache.maven.doxia:doxia-module-xhtml:jar:1.0:compile
+[DEBUG]    org.codehaus.plexus:plexus-archiver:jar:2.3:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.0.9:compile
+[DEBUG]    org.apache.maven.shared:file-management:jar:1.2.1:compile
+[DEBUG]       org.apache.maven.shared:maven-shared-io:jar:1.1:compile
+[DEBUG]          org.apache.maven.wagon:wagon-provider-api:jar:1.0-alpha-6:compile
+[DEBUG]    org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]       junit:junit:jar:3.8.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-io:jar:2.0.6:compile
+[DEBUG]    org.apache.maven.shared:maven-dependency-analyzer:jar:1.4:compile
+[DEBUG]       asm:asm:jar:3.3.1:compile
+[DEBUG]       org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile
+[DEBUG]    org.apache.maven.shared:maven-dependency-tree:jar:2.1:compile
+[DEBUG]       org.eclipse.aether:aether-util:jar:0.9.0.M2:compile
+[DEBUG]    org.apache.maven.shared:maven-common-artifact-filters:jar:1.4:compile
+[DEBUG]    org.apache.maven.shared:maven-invoker:jar:2.0.11:compile
+[DEBUG]    commons-lang:commons-lang:jar:2.6:compile
+[DEBUG]    commons-collections:commons-collections:jar:3.2.1:compile
+[DEBUG]    classworlds:classworlds:jar:1.1:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-dependency-plugin:2.8
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-dependency-plugin:2.8
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-dependency-plugin:2.8
+[DEBUG]   Included: org.apache.maven.plugins:maven-dependency-plugin:jar:2.8
+[DEBUG]   Included: commons-cli:commons-cli:jar:1.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-api:jar:3.0
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-impl:jar:2.0.5
+[DEBUG]   Included: org.apache.maven.doxia:doxia-core:jar:1.0
+[DEBUG]   Included: org.apache.maven.shared:maven-doxia-tools:jar:1.0.2
+[DEBUG]   Included: commons-io:commons-io:jar:1.4
+[DEBUG]   Included: commons-validator:commons-validator:jar:1.2.0
+[DEBUG]   Included: commons-beanutils:commons-beanutils:jar:1.7.0
+[DEBUG]   Included: commons-digester:commons-digester:jar:1.6
+[DEBUG]   Included: commons-logging:commons-logging:jar:1.0.4
+[DEBUG]   Included: oro:oro:jar:2.0.8
+[DEBUG]   Included: xml-apis:xml-apis:jar:1.0.b2
+[DEBUG]   Included: org.apache.maven.doxia:doxia-sink-api:jar:1.0
+[DEBUG]   Included: org.apache.maven.doxia:doxia-site-renderer:jar:1.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-i18n:jar:1.0-beta-7
+[DEBUG]   Included: org.codehaus.plexus:plexus-velocity:jar:1.1.7
+[DEBUG]   Included: org.apache.velocity:velocity:jar:1.5
+[DEBUG]   Included: org.apache.maven.doxia:doxia-decoration-model:jar:1.0
+[DEBUG]   Included: org.apache.maven.doxia:doxia-module-apt:jar:1.0
+[DEBUG]   Included: org.apache.maven.doxia:doxia-module-fml:jar:1.0
+[DEBUG]   Included: org.apache.maven.doxia:doxia-module-xdoc:jar:1.0
+[DEBUG]   Included: org.apache.maven.doxia:doxia-module-xhtml:jar:1.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-archiver:jar:2.3
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0.9
+[DEBUG]   Included: org.apache.maven.shared:file-management:jar:1.2.1
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-io:jar:1.1
+[DEBUG]   Included: junit:junit:jar:3.8.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-io:jar:2.0.6
+[DEBUG]   Included: org.apache.maven.shared:maven-dependency-analyzer:jar:1.4
+[DEBUG]   Included: asm:asm:jar:3.3.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:1.5.5
+[DEBUG]   Included: org.apache.maven.shared:maven-dependency-tree:jar:2.1
+[DEBUG]   Included: org.eclipse.aether:aether-util:jar:0.9.0.M2
+[DEBUG]   Included: org.apache.maven.shared:maven-common-artifact-filters:jar:1.4
+[DEBUG]   Included: org.apache.maven.shared:maven-invoker:jar:2.0.11
+[DEBUG]   Included: commons-lang:commons-lang:jar:2.6
+[DEBUG]   Included: commons-collections:commons-collections:jar:3.2.1
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-dependency-plugin:2.8:tree from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-dependency-plugin:2.8, parent: sun.misc.Launcher$AppClassLoader@4e25154f]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-dependency-plugin:2.8:tree' with basic configurator -->
+[DEBUG]   (f) appendOutput = false
+[DEBUG]   (f) localRepository =       id: local
+      url: file:///C:/Users/asus/.m2/repository/
+   layout: default
+snapshots: [enabled => true, update => always]
+ releases: [enabled => true, update => always]
+
+[DEBUG]   (f) outputType = text
+[DEBUG]   (s) skip = false
+[DEBUG]   (f) tokens = standard
+[DEBUG]   (f) verbose = false
+[DEBUG]   (f) project = MavenProject: boss.bes.paper:boss-bes-paper-controller:0.0.1-SNAPSHOT @ E:\ideawork\NEU-G01-boss-exam-platform\boss-bes-paper-center\boss-bes-paper-controller\pom.xml
+[DEBUG] -- end configuration --
+[DEBUG] building maven31 dependency graph for boss.bes.paper:boss-bes-paper-controller:jar:0.0.1-SNAPSHOT
+[DEBUG] Could not find metadata net.minidev:json-smart/maven-metadata.xml in local (C:\Users\asus\.m2\repository)
+[DEBUG] Skipped remote request for net.minidev:json-smart/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=2, ConflictMarker.markTime=1, ConflictMarker.nodeCount=762, ConflictIdSorter.graphTime=0, ConflictIdSorter.topsortTime=0, ConflictIdSorter.conflictIdCount=242, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=207, ConflictResolver.conflictItemCount=538, DefaultDependencyCollector.collectTime=236, DefaultDependencyCollector.transformTime=210}
+[DEBUG] boss.bes.paper:boss-bes-paper-controller:jar:0.0.1-SNAPSHOT
+[DEBUG]    com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-discovery:jar:2.2.1.RELEASE:compile
+[DEBUG]       com.alibaba.nacos:nacos-client:jar:1.2.1:compile
+[DEBUG]          com.alibaba.nacos:nacos-common:jar:1.2.1:compile
+[DEBUG]             commons-io:commons-io:jar:2.2:compile
+[DEBUG]             org.apache.commons:commons-lang3:jar:3.10:compile (version managed from 3.4 by org.springframework.boot:spring-boot-dependencies:2.3.1.RELEASE)
+[DEBUG]          com.alibaba.nacos:nacos-api:jar:1.2.1:compile
+[DEBUG]             com.alibaba:fastjson:jar:1.2.58:compile
+[DEBUG]          com.google.guava:guava:jar:29.0-android:compile (version managed from 22.0 by com.google.guava:guava-bom:29.0-android)
+[DEBUG]             com.google.guava:failureaccess:jar:1.0.1:compile
+[DEBUG]             com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile
+[DEBUG]             com.google.code.findbugs:jsr305:jar:3.0.2:compile
+[DEBUG]             org.checkerframework:checker-compat-qual:jar:2.5.5:compile
+[DEBUG]             com.google.errorprone:error_prone_annotations:jar:2.3.4:compile
+[DEBUG]             com.google.j2objc:j2objc-annotations:jar:1.3:compile
+[DEBUG]          commons-codec:commons-codec:jar:1.14:compile (version managed from 1.11 by org.springframework.boot:spring-boot-dependencies:2.3.1.RELEASE)
+[DEBUG]          com.fasterxml.jackson.core:jackson-core:jar:2.11.0:compile (version managed from 2.9.10 by com.fasterxml.jackson:jackson-bom:2.11.0)
+[DEBUG]          com.fasterxml.jackson.core:jackson-databind:jar:2.11.0:compile (version managed from 2.9.10.3 by com.fasterxml.jackson:jackson-bom:2.11.0)
+[DEBUG]          io.prometheus:simpleclient:jar:0.5.0:compile
+[DEBUG]          org.yaml:snakeyaml:jar:1.26:compile (version managed from 1.23 by org.springframework.boot:spring-boot-dependencies:2.3.1.RELEASE)
+[DEBUG]       com.alibaba.spring:spring-context-support:jar:1.0.6:compile
+[DEBUG]       org.springframework.cloud:spring-cloud-commons:jar:2.2.3.RELEASE:compile (version managed from 2.2.2.RELEASE by org.springframework.cloud:spring-cloud-commons-dependencies:2.2.3.RELEASE)
+[DEBUG]          org.springframework.security:spring-security-crypto:jar:5.3.3.RELEASE:compile (version managed from 5.3.2.RELEASE by org.springframework.security:spring-security-bom:5.3.3.RELEASE)
+[DEBUG]       org.springframework.cloud:spring-cloud-context:jar:2.2.3.RELEASE:compile (version managed from 2.2.2.RELEASE by org.springframework.cloud:spring-cloud-commons-dependencies:2.2.3.RELEASE)
+[DEBUG]       org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.2.3.RELEASE:compile (version managed from 2.2.2.RELEASE by org.springframework.cloud:spring-cloud-netflix-dependencies:2.2.3.RELEASE)
+[DEBUG]          org.springframework.cloud:spring-cloud-starter:jar:2.2.3.RELEASE:compile
+[DEBUG]             org.springframework.security:spring-security-rsa:jar:1.0.9.RELEASE:compile
+[DEBUG]                org.bouncycastle:bcpkix-jdk15on:jar:1.64:compile
+[DEBUG]          org.springframework.cloud:spring-cloud-netflix-ribbon:jar:2.2.3.RELEASE:compile
+[DEBUG]             org.springframework.cloud:spring-cloud-netflix-archaius:jar:2.2.3.RELEASE:compile
+[DEBUG]          org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar:2.2.3.RELEASE:compile
+[DEBUG]             com.netflix.archaius:archaius-core:jar:0.7.6:compile
+[DEBUG]             commons-configuration:commons-configuration:jar:1.8:compile
+[DEBUG]          com.netflix.ribbon:ribbon:jar:2.3.0:compile
+[DEBUG]             com.netflix.ribbon:ribbon-transport:jar:2.3.0:runtime
+[DEBUG]                io.reactivex:rxnetty-contexts:jar:0.4.9:runtime
+[DEBUG]                io.reactivex:rxnetty-servo:jar:0.4.9:runtime
+[DEBUG]             com.netflix.hystrix:hystrix-core:jar:1.5.18:compile (version managed from 1.4.3 by org.springframework.cloud:spring-cloud-netflix-dependencies:2.2.3.RELEASE)
+[DEBUG]                org.hdrhistogram:HdrHistogram:jar:2.1.9:compile
+[DEBUG]             javax.inject:javax.inject:jar:1:runtime
+[DEBUG]             io.reactivex:rxnetty:jar:0.4.9:runtime
+[DEBUG]          com.netflix.ribbon:ribbon-core:jar:2.3.0:compile
+[DEBUG]             commons-lang:commons-lang:jar:2.6:compile
+[DEBUG]          com.netflix.ribbon:ribbon-httpclient:jar:2.3.0:compile
+[DEBUG]             commons-collections:commons-collections:jar:3.2.2:compile
+[DEBUG]             org.apache.httpcomponents:httpclient:jar:4.5.12:compile (version managed from 4.2.1 by org.springframework.boot:spring-boot-dependencies:2.3.1.RELEASE)
+[DEBUG]                org.apache.httpcomponents:httpcore:jar:4.4.13:compile
+[DEBUG]             com.sun.jersey:jersey-client:jar:1.19.1:runtime
+[DEBUG]                com.sun.jersey:jersey-core:jar:1.19.1:runtime
+[DEBUG]                   javax.ws.rs:jsr311-api:jar:1.1.1:runtime
+[DEBUG]             com.sun.jersey.contribs:jersey-apache-client4:jar:1.19.1:runtime
+[DEBUG]             com.netflix.servo:servo-core:jar:0.12.21:runtime (version managed from 0.10.1 by org.springframework.cloud:spring-cloud-netflix-dependencies:2.2.3.RELEASE)
+[DEBUG]             com.netflix.netflix-commons:netflix-commons-util:jar:0.3.0:runtime (version managed from 0.1.1 by org.springframework.cloud:spring-cloud-netflix-dependencies:2.2.3.RELEASE)
+[DEBUG]          com.netflix.ribbon:ribbon-loadbalancer:jar:2.3.0:compile
+[DEBUG]             com.netflix.netflix-commons:netflix-statistics:jar:0.1.1:runtime
+[DEBUG]          io.reactivex:rxjava:jar:1.3.8:compile
+[DEBUG]    com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-config:jar:2.2.1.RELEASE:compile
+[DEBUG]    org.springframework.boot:spring-boot-starter-web:jar:2.3.1.RELEASE:compile
+[DEBUG]       org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE:compile
+[DEBUG]          org.springframework.boot:spring-boot:jar:2.3.1.RELEASE:compile
+[DEBUG]          org.springframework.boot:spring-boot-autoconfigure:jar:2.3.1.RELEASE:compile
+[DEBUG]          org.springframework.boot:spring-boot-starter-logging:jar:2.3.1.RELEASE:compile
+[DEBUG]             ch.qos.logback:logback-classic:jar:1.2.3:compile
+[DEBUG]                ch.qos.logback:logback-core:jar:1.2.3:compile
+[DEBUG]             org.apache.logging.log4j:log4j-to-slf4j:jar:2.13.3:compile
+[DEBUG]                org.apache.logging.log4j:log4j-api:jar:2.13.3:compile
+[DEBUG]             org.slf4j:jul-to-slf4j:jar:1.7.30:compile
+[DEBUG]          jakarta.annotation:jakarta.annotation-api:jar:1.3.5:compile
+[DEBUG]       org.springframework.boot:spring-boot-starter-json:jar:2.3.1.RELEASE:compile
+[DEBUG]          com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.11.0:compile
+[DEBUG]          com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.11.0:compile
+[DEBUG]          com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.11.0:compile
+[DEBUG]       org.springframework.boot:spring-boot-starter-tomcat:jar:2.3.1.RELEASE:compile
+[DEBUG]          org.apache.tomcat.embed:tomcat-embed-core:jar:9.0.36:compile
+[DEBUG]          org.glassfish:jakarta.el:jar:3.0.3:compile
+[DEBUG]          org.apache.tomcat.embed:tomcat-embed-websocket:jar:9.0.36:compile
+[DEBUG]       org.springframework:spring-web:jar:5.2.7.RELEASE:compile
+[DEBUG]          org.springframework:spring-beans:jar:5.2.7.RELEASE:compile
+[DEBUG]       org.springframework:spring-webmvc:jar:5.2.7.RELEASE:compile
+[DEBUG]          org.springframework:spring-aop:jar:5.2.7.RELEASE:compile
+[DEBUG]          org.springframework:spring-context:jar:5.2.7.RELEASE:compile
+[DEBUG]          org.springframework:spring-expression:jar:5.2.7.RELEASE:compile
+[DEBUG]    org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE:test
+[DEBUG]       org.springframework.boot:spring-boot-test:jar:2.3.1.RELEASE:test
+[DEBUG]       org.springframework.boot:spring-boot-test-autoconfigure:jar:2.3.1.RELEASE:test
+[DEBUG]       com.jayway.jsonpath:json-path:jar:2.4.0:test
+[DEBUG]          net.minidev:json-smart:jar:2.3:compile
+[DEBUG]             net.minidev:accessors-smart:jar:1.2:compile
+[DEBUG]                org.ow2.asm:asm:jar:5.0.4:compile
+[DEBUG]          org.slf4j:slf4j-api:jar:1.7.30:compile (version managed from 1.7.25 by org.springframework.boot:spring-boot-dependencies:2.3.1.RELEASE)
+[DEBUG]       jakarta.xml.bind:jakarta.xml.bind-api:jar:2.3.3:compile
+[DEBUG]          jakarta.activation:jakarta.activation-api:jar:1.2.2:compile
+[DEBUG]       org.assertj:assertj-core:jar:3.16.1:test
+[DEBUG]       org.hamcrest:hamcrest:jar:2.2:compile
+[DEBUG]       org.junit.jupiter:junit-jupiter:jar:5.6.2:test
+[DEBUG]          org.junit.jupiter:junit-jupiter-api:jar:5.6.2:test
+[DEBUG]             org.apiguardian:apiguardian-api:jar:1.1.0:test
+[DEBUG]             org.opentest4j:opentest4j:jar:1.2.0:test
+[DEBUG]             org.junit.platform:junit-platform-commons:jar:1.6.2:test
+[DEBUG]          org.junit.jupiter:junit-jupiter-params:jar:5.6.2:test
+[DEBUG]          org.junit.jupiter:junit-jupiter-engine:jar:5.6.2:test
+[DEBUG]             org.junit.platform:junit-platform-engine:jar:1.6.2:test
+[DEBUG]       org.mockito:mockito-core:jar:3.3.3:test
+[DEBUG]          net.bytebuddy:byte-buddy:jar:1.10.11:compile (version managed from 1.10.5 by org.springframework.boot:spring-boot-dependencies:2.3.1.RELEASE)
+[DEBUG]          net.bytebuddy:byte-buddy-agent:jar:1.10.11:test (version managed from 1.10.5 by org.springframework.boot:spring-boot-dependencies:2.3.1.RELEASE)
+[DEBUG]          org.objenesis:objenesis:jar:2.6:test
+[DEBUG]       org.mockito:mockito-junit-jupiter:jar:3.3.3:test
+[DEBUG]       org.skyscreamer:jsonassert:jar:1.5.0:test
+[DEBUG]          com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1:test
+[DEBUG]       org.springframework:spring-core:jar:5.2.7.RELEASE:compile
+[DEBUG]          org.springframework:spring-jcl:jar:5.2.7.RELEASE:compile
+[DEBUG]       org.springframework:spring-test:jar:5.2.7.RELEASE:test
+[DEBUG]       org.xmlunit:xmlunit-core:jar:2.7.0:test
+[DEBUG]    boss.bes.paper:boss-bes-paper-config:jar:0.0.1-SNAPSHOT:compile
+[DEBUG]    boss.bes.paper:boss-bes-paper-service:jar:0.0.1-SNAPSHOT:compile
+[DEBUG]       org.springframework.cloud:spring-cloud-starter-openfeign:jar:2.2.3.RELEASE:compile
+[DEBUG]          org.springframework.cloud:spring-cloud-openfeign-core:jar:2.2.3.RELEASE:compile
+[DEBUG]             io.github.openfeign.form:feign-form-spring:jar:3.8.0:compile
+[DEBUG]                io.github.openfeign.form:feign-form:jar:3.8.0:compile
+[DEBUG]                commons-fileupload:commons-fileupload:jar:1.4:compile
+[DEBUG]          io.github.openfeign:feign-core:jar:10.10.1:compile
+[DEBUG]          io.github.openfeign:feign-slf4j:jar:10.10.1:compile
+[DEBUG]          io.github.openfeign:feign-hystrix:jar:10.10.1:compile
+[DEBUG]       boss.bes.paper:boss-bes-paper-dao:jar:0.0.1-SNAPSHOT:compile
+[DEBUG]          boss.bes.paper:boss-bes-paper-utils:jar:0.0.1-SNAPSHOT:compile
+[DEBUG]    boss.bes.paper:boss-bes-paper-api:jar:0.0.1-SNAPSHOT:compile
+[DEBUG]       boss.bes.paper:boss-bes-paper-pojo:jar:0.0.1-SNAPSHOT:compile
+[DEBUG]    boss.bes:boss-xtrain-common-spring-boot-starter:jar:0.0.1-SNAPSHOT:compile
+[DEBUG]       boss.bes:boss-xtrain-cache-redis:jar:0.0.1-SNAPSHOT:compile
+[DEBUG]          mysql:mysql-connector-java:jar:8.0.20:compile (version managed from 5.1.47 by org.springframework.boot:spring-boot-dependencies:2.3.1.RELEASE)
+[DEBUG]          org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE:compile
+[DEBUG]             org.springframework.data:spring-data-redis:jar:2.3.1.RELEASE:compile
+[DEBUG]                org.springframework.data:spring-data-keyvalue:jar:2.3.1.RELEASE:compile
+[DEBUG]                org.springframework:spring-tx:jar:5.2.7.RELEASE:compile
+[DEBUG]                org.springframework:spring-oxm:jar:5.2.7.RELEASE:compile
+[DEBUG]             io.lettuce:lettuce-core:jar:5.3.1.RELEASE:compile
+[DEBUG]                io.netty:netty-common:jar:4.1.50.Final:compile
+[DEBUG]                io.netty:netty-handler:jar:4.1.50.Final:compile
+[DEBUG]                   io.netty:netty-resolver:jar:4.1.50.Final:compile
+[DEBUG]                   io.netty:netty-buffer:jar:4.1.50.Final:compile
+[DEBUG]                   io.netty:netty-codec:jar:4.1.50.Final:compile
+[DEBUG]                io.netty:netty-transport:jar:4.1.50.Final:compile
+[DEBUG]                io.projectreactor:reactor-core:jar:3.3.6.RELEASE:compile
+[DEBUG]                   org.reactivestreams:reactive-streams:jar:1.0.3:compile
+[DEBUG]       boss.bes:boss-xtrain-config-api-version:jar:0.0.1-SNAPSHOT:compile
+[DEBUG]          org.projectlombok:lombok:jar:1.18.12:compile (version managed from 1.18.0 by org.springframework.boot:spring-boot-dependencies:2.3.1.RELEASE)
+[DEBUG]          io.springfox:springfox-swagger2:jar:2.9.2:compile
+[DEBUG]             io.swagger:swagger-annotations:jar:1.5.20:compile
+[DEBUG]             io.swagger:swagger-models:jar:1.5.20:compile
+[DEBUG]             io.springfox:springfox-spi:jar:2.9.2:compile
+[DEBUG]                io.springfox:springfox-core:jar:2.9.2:compile
+[DEBUG]             io.springfox:springfox-schema:jar:2.9.2:compile
+[DEBUG]             io.springfox:springfox-swagger-common:jar:2.9.2:compile
+[DEBUG]             io.springfox:springfox-spring-web:jar:2.9.2:compile
+[DEBUG]             com.fasterxml:classmate:jar:1.5.1:compile (version managed from 1.4.0 by org.springframework.boot:spring-boot-dependencies:2.3.1.RELEASE)
+[DEBUG]             org.springframework.plugin:spring-plugin-core:jar:1.2.0.RELEASE:compile
+[DEBUG]             org.springframework.plugin:spring-plugin-metadata:jar:1.2.0.RELEASE:compile
+[DEBUG]             org.mapstruct:mapstruct:jar:1.2.0.Final:compile
+[DEBUG]          io.springfox:springfox-swagger-ui:jar:2.9.2:compile
+[DEBUG]       boss.bes:boss-xtrain-config-spring-cache:jar:0.0.1-SNAPSHOT:compile
+[DEBUG]          com.fasterxml.jackson.core:jackson-annotations:jar:2.11.0:compile
+[DEBUG]          org.apache.commons:commons-pool2:jar:2.8.0:compile
+[DEBUG]       boss.bes:boss-xtrain-core-annotation:jar:0.0.1-SNAPSHOT:compile
+[DEBUG]          org.springframework.boot:spring-boot-starter-aop:jar:2.3.1.RELEASE:compile
+[DEBUG]             org.aspectj:aspectjweaver:jar:1.9.5:compile
+[DEBUG]       boss.bes:boss-xtrain-core-data-convention:jar:0.0.1-SNAPSHOT:compile
+[DEBUG]          com.github.pagehelper:pagehelper-spring-boot-starter:jar:1.2.13:compile
+[DEBUG]             org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:2.1.1:compile
+[DEBUG]                org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:2.1.1:compile
+[DEBUG]             com.github.pagehelper:pagehelper-spring-boot-autoconfigure:jar:1.2.13:compile
+[DEBUG]             com.github.pagehelper:pagehelper:jar:5.1.11:compile
+[DEBUG]                com.github.jsqlparser:jsqlparser:jar:2.0:compile
+[DEBUG]          org.springframework.boot:spring-boot-starter-validation:jar:2.3.1.RELEASE:compile
+[DEBUG]             org.hibernate.validator:hibernate-validator:jar:6.1.5.Final:compile
+[DEBUG]                jakarta.validation:jakarta.validation-api:jar:2.0.2:compile
+[DEBUG]                org.jboss.logging:jboss-logging:jar:3.4.1.Final:compile (version managed from 3.3.2.Final by org.springframework.boot:spring-boot-dependencies:2.3.1.RELEASE)
+[DEBUG]          org.springframework.boot:spring-boot-starter-data-jpa:jar:2.3.1.RELEASE:compile
+[DEBUG]             org.springframework.boot:spring-boot-starter-jdbc:jar:2.3.1.RELEASE:compile
+[DEBUG]                com.zaxxer:HikariCP:jar:3.4.5:compile
+[DEBUG]                org.springframework:spring-jdbc:jar:5.2.7.RELEASE:compile
+[DEBUG]             jakarta.transaction:jakarta.transaction-api:jar:1.3.3:compile
+[DEBUG]             jakarta.persistence:jakarta.persistence-api:jar:2.2.3:compile
+[DEBUG]             org.hibernate:hibernate-core:jar:5.4.17.Final:compile
+[DEBUG]                org.javassist:javassist:jar:3.24.0-GA:compile
+[DEBUG]                antlr:antlr:jar:2.7.7:compile
+[DEBUG]                org.jboss:jandex:jar:2.1.3.Final:compile
+[DEBUG]                org.dom4j:dom4j:jar:2.1.3:compile
+[DEBUG]                org.hibernate.common:hibernate-commons-annotations:jar:5.1.0.Final:compile
+[DEBUG]                org.glassfish.jaxb:jaxb-runtime:jar:2.3.3:compile (version managed from 2.3.1 by org.springframework.boot:spring-boot-dependencies:2.3.1.RELEASE)
+[DEBUG]                   org.glassfish.jaxb:txw2:jar:2.3.3:compile
+[DEBUG]                   com.sun.istack:istack-commons-runtime:jar:3.0.11:compile
+[DEBUG]             org.springframework.data:spring-data-jpa:jar:2.3.1.RELEASE:compile
+[DEBUG]                org.springframework.data:spring-data-commons:jar:2.3.1.RELEASE:compile
+[DEBUG]                org.springframework:spring-orm:jar:5.2.7.RELEASE:compile
+[DEBUG]             org.springframework:spring-aspects:jar:5.2.7.RELEASE:compile
+[DEBUG]          tk.mybatis:mapper-spring-boot-starter:jar:2.1.5:compile
+[DEBUG]             org.mybatis:mybatis:jar:3.4.6:compile
+[DEBUG]             org.mybatis:mybatis-spring:jar:1.3.2:compile
+[DEBUG]             tk.mybatis:mapper-core:jar:1.1.5:compile
+[DEBUG]                javax.persistence:persistence-api:jar:1.0:compile
+[DEBUG]             tk.mybatis:mapper-base:jar:1.1.5:compile
+[DEBUG]             tk.mybatis:mapper-weekend:jar:1.1.5:compile
+[DEBUG]             tk.mybatis:mapper-spring:jar:1.1.5:compile
+[DEBUG]             tk.mybatis:mapper-extra:jar:1.1.5:compile
+[DEBUG]             tk.mybatis:mapper-spring-boot-autoconfigure:jar:2.1.5:compile
+[DEBUG]       boss.bes:boss-xtrain-log:jar:0.0.1-SNAPSHOT:compile
+[DEBUG]          junit:junit:jar:4.13:compile (version managed from 4.12 by org.springframework.boot:spring-boot-dependencies:2.3.1.RELEASE)
+[DEBUG]             org.hamcrest:hamcrest-core:jar:2.2:compile (version managed from 1.3 by org.springframework.boot:spring-boot-dependencies:2.3.1.RELEASE)
+[DEBUG]       boss.bes:boss-xtrain-util:jar:0.0.1-SNAPSHOT:compile
+[DEBUG]          com.aliyun:aliyun-java-sdk-core:jar:4.0.6:compile
+[DEBUG]             javax.xml.bind:jaxb-api:jar:2.3.1:compile (version managed from 2.1 by org.springframework.boot:spring-boot-dependencies:2.3.1.RELEASE)
+[DEBUG]                javax.activation:javax.activation-api:jar:1.2.0:compile
+[DEBUG]             com.sun.xml.bind:jaxb-core:jar:2.1.14:compile
+[DEBUG]             com.sun.xml.bind:jaxb-impl:jar:2.1:compile
+[DEBUG]             javax.activation:activation:jar:1.1.1:compile
+[DEBUG]          com.aliyun:aliyun-java-sdk-dysmsapi:jar:1.1.0:compile
+[DEBUG]          org.springframework.boot:spring-boot-starter-mail:jar:2.3.1.RELEASE:compile
+[DEBUG]             org.springframework:spring-context-support:jar:5.2.7.RELEASE:compile
+[DEBUG]             com.sun.mail:jakarta.mail:jar:1.6.5:compile
+[DEBUG]                com.sun.activation:jakarta.activation:jar:1.2.2:compile (version managed from 1.2.1 by org.springframework.boot:spring-boot-dependencies:2.3.1.RELEASE)
+[DEBUG]          com.sun.mail:javax.mail:jar:1.4.4:compile
+[DEBUG]          cn.afterturn:easypoi-base:jar:3.0.3:compile
+[DEBUG]             org.apache.poi:poi:jar:3.15:compile
+[DEBUG]                org.apache.commons:commons-collections4:jar:4.1:compile
+[DEBUG]             org.apache.poi:poi-ooxml:jar:3.15:compile
+[DEBUG]                com.github.virtuald:curvesapi:jar:1.04:compile
+[DEBUG]             org.apache.poi:poi-ooxml-schemas:jar:3.15:compile
+[DEBUG]                org.apache.xmlbeans:xmlbeans:jar:2.6.0:compile
+[DEBUG]                   stax:stax-api:jar:1.0.1:compile
+[DEBUG]             javax.validation:validation-api:jar:2.0.1.Final:compile (version managed from 1.1.0.Final by org.springframework.boot:spring-boot-dependencies:2.3.1.RELEASE)
+[DEBUG]          cn.afterturn:easypoi-web:jar:3.0.3:compile
+[DEBUG]          cn.afterturn:easypoi-annotation:jar:3.0.3:compile
+[DEBUG]          com.auth0:java-jwt:jar:3.0.1:compile
+[DEBUG]             org.bouncycastle:bcprov-jdk15on:jar:1.55:compile
+[DEBUG]          io.jsonwebtoken:jjwt:jar:0.7.0:compile
+[DEBUG]          com.nimbusds:nimbus-jose-jwt:jar:6.0:compile
+[DEBUG]             com.github.stephenc.jcip:jcip-annotations:jar:1.0-1:compile
+[DEBUG]          commons-logging:commons-logging:jar:1.2:compile
+[DEBUG]          com.google.code.gson:gson:jar:2.8.6:compile (version managed from 2.8.2 by org.springframework.boot:spring-boot-dependencies:2.3.1.RELEASE)
+[DEBUG]          commons-beanutils:commons-beanutils:jar:1.9.3:compile
+[DEBUG]          cn.hutool:hutool-all:jar:5.3.7:compile
+[INFO] boss.bes.paper:boss-bes-paper-controller:jar:0.0.1-SNAPSHOT
+[INFO] +- com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-discovery:jar:2.2.1.RELEASE:compile
+[INFO] |  +- com.alibaba.nacos:nacos-client:jar:1.2.1:compile
+[INFO] |  |  +- com.alibaba.nacos:nacos-common:jar:1.2.1:compile
+[INFO] |  |  |  +- commons-io:commons-io:jar:2.2:compile
+[INFO] |  |  |  \- org.apache.commons:commons-lang3:jar:3.10:compile
+[INFO] |  |  +- com.alibaba.nacos:nacos-api:jar:1.2.1:compile
+[INFO] |  |  |  \- com.alibaba:fastjson:jar:1.2.58:compile
+[INFO] |  |  +- com.google.guava:guava:jar:29.0-android:compile
+[INFO] |  |  |  +- com.google.guava:failureaccess:jar:1.0.1:compile
+[INFO] |  |  |  +- com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile
+[INFO] |  |  |  +- com.google.code.findbugs:jsr305:jar:3.0.2:compile
+[INFO] |  |  |  +- org.checkerframework:checker-compat-qual:jar:2.5.5:compile
+[INFO] |  |  |  +- com.google.errorprone:error_prone_annotations:jar:2.3.4:compile
+[INFO] |  |  |  \- com.google.j2objc:j2objc-annotations:jar:1.3:compile
+[INFO] |  |  +- commons-codec:commons-codec:jar:1.14:compile
+[INFO] |  |  +- com.fasterxml.jackson.core:jackson-core:jar:2.11.0:compile
+[INFO] |  |  +- com.fasterxml.jackson.core:jackson-databind:jar:2.11.0:compile
+[INFO] |  |  +- io.prometheus:simpleclient:jar:0.5.0:compile
+[INFO] |  |  \- org.yaml:snakeyaml:jar:1.26:compile
+[INFO] |  +- com.alibaba.spring:spring-context-support:jar:1.0.6:compile
+[INFO] |  +- org.springframework.cloud:spring-cloud-commons:jar:2.2.3.RELEASE:compile
+[INFO] |  |  \- org.springframework.security:spring-security-crypto:jar:5.3.3.RELEASE:compile
+[INFO] |  +- org.springframework.cloud:spring-cloud-context:jar:2.2.3.RELEASE:compile
+[INFO] |  \- org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.2.3.RELEASE:compile
+[INFO] |     +- org.springframework.cloud:spring-cloud-starter:jar:2.2.3.RELEASE:compile
+[INFO] |     |  \- org.springframework.security:spring-security-rsa:jar:1.0.9.RELEASE:compile
+[INFO] |     |     \- org.bouncycastle:bcpkix-jdk15on:jar:1.64:compile
+[INFO] |     +- org.springframework.cloud:spring-cloud-netflix-ribbon:jar:2.2.3.RELEASE:compile
+[INFO] |     |  \- org.springframework.cloud:spring-cloud-netflix-archaius:jar:2.2.3.RELEASE:compile
+[INFO] |     +- org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar:2.2.3.RELEASE:compile
+[INFO] |     |  +- com.netflix.archaius:archaius-core:jar:0.7.6:compile
+[INFO] |     |  \- commons-configuration:commons-configuration:jar:1.8:compile
+[INFO] |     +- com.netflix.ribbon:ribbon:jar:2.3.0:compile
+[INFO] |     |  +- com.netflix.ribbon:ribbon-transport:jar:2.3.0:runtime
+[INFO] |     |  |  +- io.reactivex:rxnetty-contexts:jar:0.4.9:runtime
+[INFO] |     |  |  \- io.reactivex:rxnetty-servo:jar:0.4.9:runtime
+[INFO] |     |  +- com.netflix.hystrix:hystrix-core:jar:1.5.18:compile
+[INFO] |     |  |  \- org.hdrhistogram:HdrHistogram:jar:2.1.9:compile
+[INFO] |     |  +- javax.inject:javax.inject:jar:1:runtime
+[INFO] |     |  \- io.reactivex:rxnetty:jar:0.4.9:runtime
+[INFO] |     +- com.netflix.ribbon:ribbon-core:jar:2.3.0:compile
+[INFO] |     |  \- commons-lang:commons-lang:jar:2.6:compile
+[INFO] |     +- com.netflix.ribbon:ribbon-httpclient:jar:2.3.0:compile
+[INFO] |     |  +- commons-collections:commons-collections:jar:3.2.2:compile
+[INFO] |     |  +- org.apache.httpcomponents:httpclient:jar:4.5.12:compile
+[INFO] |     |  |  \- org.apache.httpcomponents:httpcore:jar:4.4.13:compile
+[INFO] |     |  +- com.sun.jersey:jersey-client:jar:1.19.1:runtime
+[INFO] |     |  |  \- com.sun.jersey:jersey-core:jar:1.19.1:runtime
+[INFO] |     |  |     \- javax.ws.rs:jsr311-api:jar:1.1.1:runtime
+[INFO] |     |  +- com.sun.jersey.contribs:jersey-apache-client4:jar:1.19.1:runtime
+[INFO] |     |  +- com.netflix.servo:servo-core:jar:0.12.21:runtime
+[INFO] |     |  \- com.netflix.netflix-commons:netflix-commons-util:jar:0.3.0:runtime
+[INFO] |     +- com.netflix.ribbon:ribbon-loadbalancer:jar:2.3.0:compile
+[INFO] |     |  \- com.netflix.netflix-commons:netflix-statistics:jar:0.1.1:runtime
+[INFO] |     \- io.reactivex:rxjava:jar:1.3.8:compile
+[INFO] +- com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-config:jar:2.2.1.RELEASE:compile
+[INFO] +- org.springframework.boot:spring-boot-starter-web:jar:2.3.1.RELEASE:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot:jar:2.3.1.RELEASE:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot-autoconfigure:jar:2.3.1.RELEASE:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot-starter-logging:jar:2.3.1.RELEASE:compile
+[INFO] |  |  |  +- ch.qos.logback:logback-classic:jar:1.2.3:compile
+[INFO] |  |  |  |  \- ch.qos.logback:logback-core:jar:1.2.3:compile
+[INFO] |  |  |  +- org.apache.logging.log4j:log4j-to-slf4j:jar:2.13.3:compile
+[INFO] |  |  |  |  \- org.apache.logging.log4j:log4j-api:jar:2.13.3:compile
+[INFO] |  |  |  \- org.slf4j:jul-to-slf4j:jar:1.7.30:compile
+[INFO] |  |  \- jakarta.annotation:jakarta.annotation-api:jar:1.3.5:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter-json:jar:2.3.1.RELEASE:compile
+[INFO] |  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.11.0:compile
+[INFO] |  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.11.0:compile
+[INFO] |  |  \- com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.11.0:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter-tomcat:jar:2.3.1.RELEASE:compile
+[INFO] |  |  +- org.apache.tomcat.embed:tomcat-embed-core:jar:9.0.36:compile
+[INFO] |  |  +- org.glassfish:jakarta.el:jar:3.0.3:compile
+[INFO] |  |  \- org.apache.tomcat.embed:tomcat-embed-websocket:jar:9.0.36:compile
+[INFO] |  +- org.springframework:spring-web:jar:5.2.7.RELEASE:compile
+[INFO] |  |  \- org.springframework:spring-beans:jar:5.2.7.RELEASE:compile
+[INFO] |  \- org.springframework:spring-webmvc:jar:5.2.7.RELEASE:compile
+[INFO] |     +- org.springframework:spring-aop:jar:5.2.7.RELEASE:compile
+[INFO] |     +- org.springframework:spring-context:jar:5.2.7.RELEASE:compile
+[INFO] |     \- org.springframework:spring-expression:jar:5.2.7.RELEASE:compile
+[INFO] +- org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE:test
+[INFO] |  +- org.springframework.boot:spring-boot-test:jar:2.3.1.RELEASE:test
+[INFO] |  +- org.springframework.boot:spring-boot-test-autoconfigure:jar:2.3.1.RELEASE:test
+[INFO] |  +- com.jayway.jsonpath:json-path:jar:2.4.0:test
+[INFO] |  |  +- net.minidev:json-smart:jar:2.3:compile
+[INFO] |  |  |  \- net.minidev:accessors-smart:jar:1.2:compile
+[INFO] |  |  |     \- org.ow2.asm:asm:jar:5.0.4:compile
+[INFO] |  |  \- org.slf4j:slf4j-api:jar:1.7.30:compile
+[INFO] |  +- jakarta.xml.bind:jakarta.xml.bind-api:jar:2.3.3:compile
+[INFO] |  |  \- jakarta.activation:jakarta.activation-api:jar:1.2.2:compile
+[INFO] |  +- org.assertj:assertj-core:jar:3.16.1:test
+[INFO] |  +- org.hamcrest:hamcrest:jar:2.2:compile
+[INFO] |  +- org.junit.jupiter:junit-jupiter:jar:5.6.2:test
+[INFO] |  |  +- org.junit.jupiter:junit-jupiter-api:jar:5.6.2:test
+[INFO] |  |  |  +- org.apiguardian:apiguardian-api:jar:1.1.0:test
+[INFO] |  |  |  +- org.opentest4j:opentest4j:jar:1.2.0:test
+[INFO] |  |  |  \- org.junit.platform:junit-platform-commons:jar:1.6.2:test
+[INFO] |  |  +- org.junit.jupiter:junit-jupiter-params:jar:5.6.2:test
+[INFO] |  |  \- org.junit.jupiter:junit-jupiter-engine:jar:5.6.2:test
+[INFO] |  |     \- org.junit.platform:junit-platform-engine:jar:1.6.2:test
+[INFO] |  +- org.mockito:mockito-core:jar:3.3.3:test
+[INFO] |  |  +- net.bytebuddy:byte-buddy:jar:1.10.11:compile
+[INFO] |  |  +- net.bytebuddy:byte-buddy-agent:jar:1.10.11:test
+[INFO] |  |  \- org.objenesis:objenesis:jar:2.6:test
+[INFO] |  +- org.mockito:mockito-junit-jupiter:jar:3.3.3:test
+[INFO] |  +- org.skyscreamer:jsonassert:jar:1.5.0:test
+[INFO] |  |  \- com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1:test
+[INFO] |  +- org.springframework:spring-core:jar:5.2.7.RELEASE:compile
+[INFO] |  |  \- org.springframework:spring-jcl:jar:5.2.7.RELEASE:compile
+[INFO] |  +- org.springframework:spring-test:jar:5.2.7.RELEASE:test
+[INFO] |  \- org.xmlunit:xmlunit-core:jar:2.7.0:test
+[INFO] +- boss.bes.paper:boss-bes-paper-config:jar:0.0.1-SNAPSHOT:compile
+[INFO] +- boss.bes.paper:boss-bes-paper-service:jar:0.0.1-SNAPSHOT:compile
+[INFO] |  +- org.springframework.cloud:spring-cloud-starter-openfeign:jar:2.2.3.RELEASE:compile
+[INFO] |  |  +- org.springframework.cloud:spring-cloud-openfeign-core:jar:2.2.3.RELEASE:compile
+[INFO] |  |  |  \- io.github.openfeign.form:feign-form-spring:jar:3.8.0:compile
+[INFO] |  |  |     +- io.github.openfeign.form:feign-form:jar:3.8.0:compile
+[INFO] |  |  |     \- commons-fileupload:commons-fileupload:jar:1.4:compile
+[INFO] |  |  +- io.github.openfeign:feign-core:jar:10.10.1:compile
+[INFO] |  |  +- io.github.openfeign:feign-slf4j:jar:10.10.1:compile
+[INFO] |  |  \- io.github.openfeign:feign-hystrix:jar:10.10.1:compile
+[INFO] |  \- boss.bes.paper:boss-bes-paper-dao:jar:0.0.1-SNAPSHOT:compile
+[INFO] |     \- boss.bes.paper:boss-bes-paper-utils:jar:0.0.1-SNAPSHOT:compile
+[INFO] +- boss.bes.paper:boss-bes-paper-api:jar:0.0.1-SNAPSHOT:compile
+[INFO] |  \- boss.bes.paper:boss-bes-paper-pojo:jar:0.0.1-SNAPSHOT:compile
+[INFO] \- boss.bes:boss-xtrain-common-spring-boot-starter:jar:0.0.1-SNAPSHOT:compile
+[INFO]    +- boss.bes:boss-xtrain-cache-redis:jar:0.0.1-SNAPSHOT:compile
+[INFO]    |  +- mysql:mysql-connector-java:jar:8.0.20:compile
+[INFO]    |  \- org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE:compile
+[INFO]    |     +- org.springframework.data:spring-data-redis:jar:2.3.1.RELEASE:compile
+[INFO]    |     |  +- org.springframework.data:spring-data-keyvalue:jar:2.3.1.RELEASE:compile
+[INFO]    |     |  +- org.springframework:spring-tx:jar:5.2.7.RELEASE:compile
+[INFO]    |     |  \- org.springframework:spring-oxm:jar:5.2.7.RELEASE:compile
+[INFO]    |     \- io.lettuce:lettuce-core:jar:5.3.1.RELEASE:compile
+[INFO]    |        +- io.netty:netty-common:jar:4.1.50.Final:compile
+[INFO]    |        +- io.netty:netty-handler:jar:4.1.50.Final:compile
+[INFO]    |        |  +- io.netty:netty-resolver:jar:4.1.50.Final:compile
+[INFO]    |        |  +- io.netty:netty-buffer:jar:4.1.50.Final:compile
+[INFO]    |        |  \- io.netty:netty-codec:jar:4.1.50.Final:compile
+[INFO]    |        +- io.netty:netty-transport:jar:4.1.50.Final:compile
+[INFO]    |        \- io.projectreactor:reactor-core:jar:3.3.6.RELEASE:compile
+[INFO]    |           \- org.reactivestreams:reactive-streams:jar:1.0.3:compile
+[INFO]    +- boss.bes:boss-xtrain-config-api-version:jar:0.0.1-SNAPSHOT:compile
+[INFO]    |  +- org.projectlombok:lombok:jar:1.18.12:compile
+[INFO]    |  +- io.springfox:springfox-swagger2:jar:2.9.2:compile
+[INFO]    |  |  +- io.swagger:swagger-annotations:jar:1.5.20:compile
+[INFO]    |  |  +- io.swagger:swagger-models:jar:1.5.20:compile
+[INFO]    |  |  +- io.springfox:springfox-spi:jar:2.9.2:compile
+[INFO]    |  |  |  \- io.springfox:springfox-core:jar:2.9.2:compile
+[INFO]    |  |  +- io.springfox:springfox-schema:jar:2.9.2:compile
+[INFO]    |  |  +- io.springfox:springfox-swagger-common:jar:2.9.2:compile
+[INFO]    |  |  +- io.springfox:springfox-spring-web:jar:2.9.2:compile
+[INFO]    |  |  +- com.fasterxml:classmate:jar:1.5.1:compile
+[INFO]    |  |  +- org.springframework.plugin:spring-plugin-core:jar:1.2.0.RELEASE:compile
+[INFO]    |  |  +- org.springframework.plugin:spring-plugin-metadata:jar:1.2.0.RELEASE:compile
+[INFO]    |  |  \- org.mapstruct:mapstruct:jar:1.2.0.Final:compile
+[INFO]    |  \- io.springfox:springfox-swagger-ui:jar:2.9.2:compile
+[INFO]    +- boss.bes:boss-xtrain-config-spring-cache:jar:0.0.1-SNAPSHOT:compile
+[INFO]    |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.11.0:compile
+[INFO]    |  \- org.apache.commons:commons-pool2:jar:2.8.0:compile
+[INFO]    +- boss.bes:boss-xtrain-core-annotation:jar:0.0.1-SNAPSHOT:compile
+[INFO]    |  \- org.springframework.boot:spring-boot-starter-aop:jar:2.3.1.RELEASE:compile
+[INFO]    |     \- org.aspectj:aspectjweaver:jar:1.9.5:compile
+[INFO]    +- boss.bes:boss-xtrain-core-data-convention:jar:0.0.1-SNAPSHOT:compile
+[INFO]    |  +- com.github.pagehelper:pagehelper-spring-boot-starter:jar:1.2.13:compile
+[INFO]    |  |  +- org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:2.1.1:compile
+[INFO]    |  |  |  \- org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:2.1.1:compile
+[INFO]    |  |  +- com.github.pagehelper:pagehelper-spring-boot-autoconfigure:jar:1.2.13:compile
+[INFO]    |  |  \- com.github.pagehelper:pagehelper:jar:5.1.11:compile
+[INFO]    |  |     \- com.github.jsqlparser:jsqlparser:jar:2.0:compile
+[INFO]    |  +- org.springframework.boot:spring-boot-starter-validation:jar:2.3.1.RELEASE:compile
+[INFO]    |  |  \- org.hibernate.validator:hibernate-validator:jar:6.1.5.Final:compile
+[INFO]    |  |     +- jakarta.validation:jakarta.validation-api:jar:2.0.2:compile
+[INFO]    |  |     \- org.jboss.logging:jboss-logging:jar:3.4.1.Final:compile
+[INFO]    |  +- org.springframework.boot:spring-boot-starter-data-jpa:jar:2.3.1.RELEASE:compile
+[INFO]    |  |  +- org.springframework.boot:spring-boot-starter-jdbc:jar:2.3.1.RELEASE:compile
+[INFO]    |  |  |  +- com.zaxxer:HikariCP:jar:3.4.5:compile
+[INFO]    |  |  |  \- org.springframework:spring-jdbc:jar:5.2.7.RELEASE:compile
+[INFO]    |  |  +- jakarta.transaction:jakarta.transaction-api:jar:1.3.3:compile
+[INFO]    |  |  +- jakarta.persistence:jakarta.persistence-api:jar:2.2.3:compile
+[INFO]    |  |  +- org.hibernate:hibernate-core:jar:5.4.17.Final:compile
+[INFO]    |  |  |  +- org.javassist:javassist:jar:3.24.0-GA:compile
+[INFO]    |  |  |  +- antlr:antlr:jar:2.7.7:compile
+[INFO]    |  |  |  +- org.jboss:jandex:jar:2.1.3.Final:compile
+[INFO]    |  |  |  +- org.dom4j:dom4j:jar:2.1.3:compile
+[INFO]    |  |  |  +- org.hibernate.common:hibernate-commons-annotations:jar:5.1.0.Final:compile
+[INFO]    |  |  |  \- org.glassfish.jaxb:jaxb-runtime:jar:2.3.3:compile
+[INFO]    |  |  |     +- org.glassfish.jaxb:txw2:jar:2.3.3:compile
+[INFO]    |  |  |     \- com.sun.istack:istack-commons-runtime:jar:3.0.11:compile
+[INFO]    |  |  +- org.springframework.data:spring-data-jpa:jar:2.3.1.RELEASE:compile
+[INFO]    |  |  |  +- org.springframework.data:spring-data-commons:jar:2.3.1.RELEASE:compile
+[INFO]    |  |  |  \- org.springframework:spring-orm:jar:5.2.7.RELEASE:compile
+[INFO]    |  |  \- org.springframework:spring-aspects:jar:5.2.7.RELEASE:compile
+[INFO]    |  \- tk.mybatis:mapper-spring-boot-starter:jar:2.1.5:compile
+[INFO]    |     +- org.mybatis:mybatis:jar:3.4.6:compile
+[INFO]    |     +- org.mybatis:mybatis-spring:jar:1.3.2:compile
+[INFO]    |     +- tk.mybatis:mapper-core:jar:1.1.5:compile
+[INFO]    |     |  \- javax.persistence:persistence-api:jar:1.0:compile
+[INFO]    |     +- tk.mybatis:mapper-base:jar:1.1.5:compile
+[INFO]    |     +- tk.mybatis:mapper-weekend:jar:1.1.5:compile
+[INFO]    |     +- tk.mybatis:mapper-spring:jar:1.1.5:compile
+[INFO]    |     +- tk.mybatis:mapper-extra:jar:1.1.5:compile
+[INFO]    |     \- tk.mybatis:mapper-spring-boot-autoconfigure:jar:2.1.5:compile
+[INFO]    +- boss.bes:boss-xtrain-log:jar:0.0.1-SNAPSHOT:compile
+[INFO]    |  \- junit:junit:jar:4.13:compile
+[INFO]    |     \- org.hamcrest:hamcrest-core:jar:2.2:compile
+[INFO]    \- boss.bes:boss-xtrain-util:jar:0.0.1-SNAPSHOT:compile
+[INFO]       +- com.aliyun:aliyun-java-sdk-core:jar:4.0.6:compile
+[INFO]       |  +- javax.xml.bind:jaxb-api:jar:2.3.1:compile
+[INFO]       |  |  \- javax.activation:javax.activation-api:jar:1.2.0:compile
+[INFO]       |  +- com.sun.xml.bind:jaxb-core:jar:2.1.14:compile
+[INFO]       |  +- com.sun.xml.bind:jaxb-impl:jar:2.1:compile
+[INFO]       |  \- javax.activation:activation:jar:1.1.1:compile
+[INFO]       +- com.aliyun:aliyun-java-sdk-dysmsapi:jar:1.1.0:compile
+[INFO]       +- org.springframework.boot:spring-boot-starter-mail:jar:2.3.1.RELEASE:compile
+[INFO]       |  +- org.springframework:spring-context-support:jar:5.2.7.RELEASE:compile
+[INFO]       |  \- com.sun.mail:jakarta.mail:jar:1.6.5:compile
+[INFO]       |     \- com.sun.activation:jakarta.activation:jar:1.2.2:compile
+[INFO]       +- com.sun.mail:javax.mail:jar:1.4.4:compile
+[INFO]       +- cn.afterturn:easypoi-base:jar:3.0.3:compile
+[INFO]       |  +- org.apache.poi:poi:jar:3.15:compile
+[INFO]       |  |  \- org.apache.commons:commons-collections4:jar:4.1:compile
+[INFO]       |  +- org.apache.poi:poi-ooxml:jar:3.15:compile
+[INFO]       |  |  \- com.github.virtuald:curvesapi:jar:1.04:compile
+[INFO]       |  +- org.apache.poi:poi-ooxml-schemas:jar:3.15:compile
+[INFO]       |  |  \- org.apache.xmlbeans:xmlbeans:jar:2.6.0:compile
+[INFO]       |  |     \- stax:stax-api:jar:1.0.1:compile
+[INFO]       |  \- javax.validation:validation-api:jar:2.0.1.Final:compile
+[INFO]       +- cn.afterturn:easypoi-web:jar:3.0.3:compile
+[INFO]       +- cn.afterturn:easypoi-annotation:jar:3.0.3:compile
+[INFO]       +- com.auth0:java-jwt:jar:3.0.1:compile
+[INFO]       |  \- org.bouncycastle:bcprov-jdk15on:jar:1.55:compile
+[INFO]       +- io.jsonwebtoken:jjwt:jar:0.7.0:compile
+[INFO]       +- com.nimbusds:nimbus-jose-jwt:jar:6.0:compile
+[INFO]       |  \- com.github.stephenc.jcip:jcip-annotations:jar:1.0-1:compile
+[INFO]       +- commons-logging:commons-logging:jar:1.2:compile
+[INFO]       +- com.google.code.gson:gson:jar:2.8.6:compile
+[INFO]       +- commons-beanutils:commons-beanutils:jar:1.9.3:compile
+[INFO]       \- cn.hutool:hutool-all:jar:5.3.7:compile
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 40.533 s
+[INFO] Finished at: 2020-07-20T10:59:16+08:00
+[INFO] Final Memory: 48M/310M
+[INFO] ------------------------------------------------------------------------

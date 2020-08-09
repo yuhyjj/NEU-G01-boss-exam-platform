@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.boss.bes.paper.utils.mapper.PaperMapper">
+  <resultMap id="BaseResultMap" type="com.boss.bes.paper.pojo.entity.Paper">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="paper_name" jdbcType="VARCHAR" property="paperName" />
+    <result column="paper_type" jdbcType="BIGINT" property="paperType" />
+    <result column="difficulty" jdbcType="BIGINT" property="difficulty" />
+    <result column="comb_exam_man" jdbcType="VARCHAR" property="combExamMan" />
+    <result column="comb_exam_time" jdbcType="TIMESTAMP" property="combExamTime" />
+    <result column="score" jdbcType="DECIMAL" property="score" />
+    <result column="discribe" jdbcType="VARCHAR" property="discribe" />
+    <result column="template_tag" jdbcType="BIT" property="templateTag" />
+    <result column="download_times" jdbcType="INTEGER" property="downloadTimes" />
+    <result column="publish_times" jdbcType="INTEGER" property="publishTimes" />
+    <result column="status" jdbcType="INTEGER" property="status" />
+    <result column="organization_id" jdbcType="BIGINT" property="organizationId" />
+    <result column="company_id" jdbcType="BIGINT" property="companyId" />
+    <result column="created_by" jdbcType="BIGINT" property="createdBy" />
+    <result column="created_time" jdbcType="TIMESTAMP" property="createdTime" />
+    <result column="updated_by" jdbcType="BIGINT" property="updatedBy" />
+    <result column="updated_time" jdbcType="TIMESTAMP" property="updatedTime" />
+    <result column="version" jdbcType="BIGINT" property="version" />
+  </resultMap>
+</mapper>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+        PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+
+<generatorConfiguration>
+    <context id="Mysql" targetRuntime="MyBatis3Simple" defaultModelType="flat">
+        <property name="javaFileEncoding" value="UTF-8"/>
+        <plugin type="tk.mybatis.mapper.generator.MapperPlugin">
+            <property name="mappers" value="boss.brs.xtrain.dataconvention.dao.mapper.CommonMapper"/>
+        </plugin>
+        <!-- 生成注释配置 -->
+        <commentGenerator>
+            <!-- 是否取消注释 -->
+            <property name="suppressAllComments" value="false"/>
+            <!-- 数据库注释支持 -->
+            <property name="addRemarkComments" value="true"/>
+            <!-- 时间格式设置 -->
+            <property name="dateFormat" value="yyyy-MM-dd HH:mm:ss"/>
+        </commentGenerator>
+
+        <jdbcConnection driverClass="com.mysql.jdbc.Driver"
+                        connectionURL="jdbc:mysql://112.124.21.230:3366/db_paper_center?serverTimezone=GMT%2B8"
+                        userId="root"
+                        password="123456">
+        </jdbcConnection>
+
+        <javaModelGenerator targetPackage="com.boss.bes.paper.pojo.entity" targetProject="src/main/java"/>
+
+        <sqlMapGenerator targetPackage="mapper" targetProject="src/main/resources"/>
+
+        <javaClientGenerator targetPackage="com.boss.bes.paper.utils.mapper"
+                             targetProject="src/main/java" type="XMLMAPPER"/>
+
+<!--        <table tableName="tb_paper" domainObjectName="Paper"></table>-->
+<!--        <table tableName="tb_paper_subject" domainObjectName="PaperSubject"></table>-->
+        <table tableName="tb_paper_subject_answer" domainObjectName="PaperSubjectAnswer"></table>
+    </context>
+</generatorConfiguration>

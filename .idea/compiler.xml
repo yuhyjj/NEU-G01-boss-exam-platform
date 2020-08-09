@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="boss-bes-paper-config" />
+        <module name="boss-bes-paper-controller" />
+        <module name="boss-bes-paper-utils" />
+        <module name="boss-bes-paper-pojo" />
+        <module name="boss-bes-paper-dao" />
+        <module name="boss-bes-paper-api" />
+        <module name="boss-bes-paper-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="boss-bes-paper-api" target="1.8" />
+      <module name="boss-bes-paper-center" target="1.8" />
+      <module name="boss-bes-paper-config" target="1.8" />
+      <module name="boss-bes-paper-controller" target="1.8" />
+      <module name="boss-bes-paper-dao" target="1.8" />
+      <module name="boss-bes-paper-pojo" target="1.8" />
+      <module name="boss-bes-paper-service" target="1.8" />
+      <module name="boss-bes-paper-utils" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="boss-bes-paper-api" options="" />
+      <module name="boss-bes-paper-center" options="-parameters" />
+      <module name="boss-bes-paper-config" options="" />
+      <module name="boss-bes-paper-controller" options="" />
+      <module name="boss-bes-paper-dao" options="" />
+      <module name="boss-bes-paper-pojo" options="" />
+      <module name="boss-bes-paper-service" options="" />
+      <module name="boss-bes-paper-utils" options="" />
+    </option>
+  </component>
+</project>

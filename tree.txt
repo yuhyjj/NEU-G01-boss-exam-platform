@@ -1,0 +1,57 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for boss.bes.paper:boss-bes-paper-controller:jar:0.0.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.springframework.boot:spring-boot-maven-plugin @ line 91, column 21
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] boss-bes-paper-center
+[INFO] boss-bes-paper-pojo
+[INFO] boss-bes-paper-utils
+[INFO] boss-bes-paper-dao
+[INFO] boss-bes-paper-service
+[INFO] boss-bes-paper-config
+[INFO] boss-bes-paper-api
+[INFO] boss-bes-paper-controller
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building boss-bes-paper-center 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ boss-bes-paper-center ---
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/doxia/doxia-sink-api/1.0-alpha-10/doxia-sink-api-1.0-alpha-10.pom
+1/2 KB   2/2 KB            Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/doxia/doxia-sink-api/1.0-alpha-10/doxia-sink-api-1.0-alpha-10.pom (2 KB at 0.8 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/doxia/doxia/1.0-alpha-10/doxia-1.0-alpha-10.pom
+1/9 KB   3/9 KB   4/9 KB   6/9 KB   7/9 KB   8/9 KB   9/9 KB            Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/doxia/doxia/1.0-alpha-10/doxia-1.0-alpha-10.pom (9 KB at 31.7 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/reporting/maven-reporting-impl/2.0.5/maven-reporting-impl-2.0.5.pom
+1/5 KB   3/5 KB   4/5 KB   5/5 KB            Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/reporting/maven-reporting-impl/2.0.5/maven-reporting-impl-2.0.5.pom (5 KB at 11.9 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/doxia/doxia-core/1.0/doxia-core-1.0.pom
+1/3 KB   3/3 KB   3/3 KB            Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/doxia/doxia-core/1.0/doxia-core-1.0.pom (3 KB at 8.2 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/codehaus/plexus/plexus-utils/1.5.7/plexus-utils-1.5.7.pom
+1/8 KB   3/8 KB   4/8 KB   6/8 KB   7/8 KB   8/8 KB   8/8 KB            Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/codehaus/plexus/plexus-utils/1.5.7/plexus-utils-1.5.7.pom (8 KB at 27.4 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/doxia/doxia-site-renderer/1.0/doxia-site-renderer-1.0.pom
+1/5 KB   3/5 KB   4/5 KB   5/5 KB            Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/doxia/doxia-site-renderer/1.0/doxia-site-renderer-1.0.pom (5 KB at 10.4 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/doxia/doxia-sitetools/1.0/doxia-sitetools-1.0.pom
+1/10 KB   3/10 KB   4/10 KB   6/10 KB   7/10 KB   8/10 KB   10/10 KB   10/10 KB              Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/doxia/doxia-sitetools/1.0/doxia-sitetools-1.0.pom (10 KB at 30.7 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/doxia/doxia-decoration-model/1.0/doxia-decoration-model-1.0.pom
+1/4 KB     3/4 KB   4/4 KB            Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/doxia/doxia-decoration-model/1.0/doxia-decoration-model-1.0.pom (4 KB at 9.6 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/doxia/doxia-module-apt/1.0/doxia-module-apt-1.0.pom
+1/3 KB   3/3 KB            Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/doxia/doxia-module-apt/1.0/doxia-module-apt-1.0.pom (3 KB at 4.9 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/doxia/doxia-modules/1.0/doxia-modules-1.0.pom
+1/3 KB   3/3 KB   3/3 KB            Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/doxia/doxia-modules/1.0/doxia-modules-1.0.pom (3 KB at 5.6 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/doxia/doxia-module-fml/1.0/doxia-module-fml-1.0.pom
+1/3 KB   3/3 KB   3/3 KB            Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/doxia/doxia-module-fml/1.0/doxia-module-fml-1.0.pom (3 KB at 6.5 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/doxia/doxia-module-xdoc/1.0/doxia-module-xdoc-1.0.pom
+1/3 KB   3/3 KB            Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/doxia/doxia-module-xdoc/1.0/doxia-module-xdoc-1.0.pom (3 KB at 7.8 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/doxia/doxia-module-xhtml/1.0/doxia-module-xhtml-1.0.pom
+1/2 KB   2/2 KB            Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/doxia/doxia-module-xhtml/1.0/doxia-module-xhtml-1.0.pom (2 KB at 2.8 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/shared/maven-doxia-tools/1.0.2/maven-doxia-tools-1.0.2.pom
+1/6 KB   3/6 KB   4/6 KB   6/6 KB   6/6 KB            Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/shared/maven-doxia-tools/1.0.2/maven-doxia-tools-1.0.2.pom (6 KB at 5.9 KB/sec)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/shared/maven-shared-components/11/maven-shared-components-11.pom
+1/9 KB   3/9 KB   4/9 KB   6/9 KB   7/9 KB   8/9 KB   9/9 KB            Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/shared/maven-shared-components/11/maven-shared-components-11.pom (9 KB at 21.2 KB/sec)
+终止批处理操作吗(Y/N)? 

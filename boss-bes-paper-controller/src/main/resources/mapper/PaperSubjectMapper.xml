@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.boss.bes.paper.utils.mapper.PaperSubjectMapper">
+    <resultMap id="BaseResultMap" type="com.boss.bes.paper.pojo.entity.PaperSubject">
+        <!--
+          WARNING - @mbg.generated
+        -->
+        <id column="id" jdbcType="BIGINT" property="id"/>
+        <result column="paper_id" jdbcType="BIGINT" property="paperId"/>
+        <result column="subject" jdbcType="VARCHAR" property="subject"/>
+        <result column="subject_category" jdbcType="VARCHAR" property="subjectCategory"/>
+        <result column="question_type" jdbcType="BIGINT" property="questionType"/>
+        <result column="difficult" jdbcType="BIGINT" property="difficult"/>
+        <result column="score" jdbcType="DECIMAL" property="score"/>
+        <result column="status" jdbcType="INTEGER" property="status"/>
+        <result column="organization_id" jdbcType="BIGINT" property="organizationId"/>
+        <result column="company_id" jdbcType="BIGINT" property="companyId"/>
+        <result column="created_by" jdbcType="BIGINT" property="createdBy"/>
+        <result column="created_time" jdbcType="TIMESTAMP" property="createdTime"/>
+        <result column="updated_by" jdbcType="BIGINT" property="updatedBy"/>
+        <result column="updated_time" jdbcType="TIMESTAMP" property="updatedTime"/>
+        <result column="version" jdbcType="BIGINT" property="version"/>
+        <result column="field1" jdbcType="VARCHAR" property="field1"/>
+        <result column="field2" jdbcType="VARCHAR" property="field2"/>
+        <result column="field3" jdbcType="VARCHAR" property="field3"/>
+    </resultMap>
+
+
+    <resultMap id="BaseResultMapWithAnswer" type="com.boss.bes.paper.pojo.entity.PaperSubject">
+        <id column="id" jdbcType="BIGINT" property="id"/>
+        <collection property="answers" ofType="com.boss.bes.paper.pojo.entity.PaperSubjectAnswer"
+                    select="com.boss.bes.paper.utils.mapper.PaperSubjectAnswerMapper.getAnswersBySubjectId"
+                    column="{subjectId=id}"/>
+    </resultMap>
+
+    <select id="queryPaperWithAnswer" resultMap="BaseResultMapWithAnswer">
+                                SELECT *
+                                FROM tb_paper_subject
+                               WHERE id=#{id}
+    </select>
+</mapper>

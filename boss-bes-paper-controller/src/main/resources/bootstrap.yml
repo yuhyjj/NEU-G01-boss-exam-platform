@@ -1,0 +1,17 @@
+server:
+  port: 9002
+spring:
+  profiles:
+    active: dev
+  application:
+    name: local-boss-bes-paper-center
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 112.124.21.230:8848
+#        ip: 182.92.213.127
+#        port: 9002
+      config:
+        server-addr: 112.124.21.230:8848 #Nacos作为配置中心地址
+        file-extension: yaml #指定yaml格式的配置
+        group: DEFAULT_GROUP

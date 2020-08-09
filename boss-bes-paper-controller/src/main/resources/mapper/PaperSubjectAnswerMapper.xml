@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.boss.bes.paper.utils.mapper.PaperSubjectAnswerMapper">
+    <resultMap id="BaseResultMap" type="com.boss.bes.paper.pojo.entity.PaperSubjectAnswer">
+        <!--
+          WARNING - @mbg.generated
+        -->
+        <id column="id" jdbcType="BIGINT" property="id"/>
+        <result column="subject_id" jdbcType="BIGINT" property="subjectId"/>
+        <result column="answer" jdbcType="VARCHAR" property="answer"/>
+        <result column="right_answer" jdbcType="BIT" property="rightAnswer"/>
+        <result column="picture_url" jdbcType="VARCHAR" property="pictureUrl"/>
+        <result column="status" jdbcType="INTEGER" property="status"/>
+        <result column="organization_id" jdbcType="BIGINT" property="organizationId"/>
+        <result column="company_id" jdbcType="BIGINT" property="companyId"/>
+        <result column="created_by" jdbcType="BIGINT" property="createdBy"/>
+        <result column="created_time" jdbcType="TIMESTAMP" property="createdTime"/>
+        <result column="updated_by" jdbcType="BIGINT" property="updatedBy"/>
+        <result column="updated_time" jdbcType="TIMESTAMP" property="updatedTime"/>
+        <result column="version" jdbcType="BIGINT" property="version"/>
+        <result column="field1" jdbcType="VARCHAR" property="field1"/>
+        <result column="field2" jdbcType="VARCHAR" property="field2"/>
+        <result column="field3" jdbcType="VARCHAR" property="field3"/>
+    </resultMap>
+
+    <select id="getAnswersBySubjectId" resultMap="BaseResultMap">
+                SELECT *
+                FROM tb_paper_subject_answer
+                WHERE subject_id=#{subjectId}
+    </select>
+</mapper>

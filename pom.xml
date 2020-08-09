@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>boss.bes.paper</groupId>
+    <artifactId>boss-bes-paper-center</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>boss-bes-paper-center</name>
+
+    <packaging>pom</packaging>
+    <modules>
+        <module>boss-bes-paper-pojo</module>
+        <module>boss-bes-paper-utils</module>
+        <module>boss-bes-paper-dao</module>
+        <module>boss-bes-paper-service</module>
+        <module>boss-bes-paper-config</module>
+        <module>boss-bes-paper-api</module>
+        <module>boss-bes-paper-controller</module>
+    </modules>
+    <properties>
+        <java.version>1.8</java.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <spring-cloud.version>Hoxton.SR5</spring-cloud.version>
+        <tk.mybatis.version>2.1.5</tk.mybatis.version>
+        <springboot.version>2.3.1.RELEASE</springboot.version>
+        <base.version>0.0.1-SNAPSHOT</base.version>
+    </properties>
+
+    <!--依赖版本-->
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>boss.bes</groupId>
+                <artifactId>boss-xtrain-common-spring-boot-starter</artifactId>
+                <version>${base.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>${spring-cloud.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <!--阿里巴巴-->
+            <dependency>
+                <groupId>com.alibaba.cloud</groupId>
+                <artifactId>spring-cloud-alibaba-dependencies</artifactId>
+                <version>2.2.1.RELEASE</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+            <!--SpringBoot -->
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-dependencies</artifactId>
+                <version>${springboot.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+
+</project>

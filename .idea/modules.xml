@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/boss-bes-paper-api/boss-bes-paper-api.iml" filepath="$PROJECT_DIR$/boss-bes-paper-api/boss-bes-paper-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boss-bes-paper-center.iml" filepath="$PROJECT_DIR$/boss-bes-paper-center.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boss-bes-paper-config/boss-bes-paper-config.iml" filepath="$PROJECT_DIR$/boss-bes-paper-config/boss-bes-paper-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boss-bes-paper-controller/boss-bes-paper-controller.iml" filepath="$PROJECT_DIR$/boss-bes-paper-controller/boss-bes-paper-controller.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boss-bes-paper-dao/boss-bes-paper-dao.iml" filepath="$PROJECT_DIR$/boss-bes-paper-dao/boss-bes-paper-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boss-bes-paper-pojo/boss-bes-paper-pojo.iml" filepath="$PROJECT_DIR$/boss-bes-paper-pojo/boss-bes-paper-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boss-bes-paper-service/boss-bes-paper-service.iml" filepath="$PROJECT_DIR$/boss-bes-paper-service/boss-bes-paper-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boss-bes-paper-utils/boss-bes-paper-utils.iml" filepath="$PROJECT_DIR$/boss-bes-paper-utils/boss-bes-paper-utils.iml" />
+    </modules>
+  </component>
+</project>

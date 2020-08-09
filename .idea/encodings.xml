@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/boss-bes-paper-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/boss-bes-paper-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/boss-bes-paper-config/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/boss-bes-paper-config/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/boss-bes-paper-controller/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/boss-bes-paper-controller/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/boss-bes-paper-dao/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/boss-bes-paper-dao/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/boss-bes-paper-pojo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/boss-bes-paper-pojo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/boss-bes-paper-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/boss-bes-paper-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/boss-bes-paper-utils/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/boss-bes-paper-utils/src/main/resources" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>
